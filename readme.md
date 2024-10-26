@@ -3,6 +3,12 @@
   Seelen UI
 </h1>
 
+- [English](/README.md)
+- [中文](/docs/README.zh.md)
+- [Français](/docs/README.fr.md)
+- [Español](/docs/README.es.md)
+- [Deutsch](/docs/README.de.md)
+
 <h2 align="center">
   Fully Customizable Desktop Environment for Windows
   <br/>
