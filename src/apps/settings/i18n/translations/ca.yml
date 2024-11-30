@@ -14,17 +14,18 @@ header:
     monitors: Monitors
     specific_apps: Aplicacions específiques
     general: General
-    seelen_wall: La paret
     seelen_rofi: Llançador d'aplicacions
     virtual_desk: Desktops virtuals
     home: Casa
+    mods: Connectors i widgets
+    seelen_wall: Gestor de fons de pantalla
 start:
   title: Benvingut!
   message_accent: Optimitzeu la vostra productivitat amb estil.
   message: >-
     Benvingut a la interfície d'usuari de Seelen, l'entorn d'escriptori
     definitiu amb un gestor de Windows de rajoles incorporat per millorar la
-    vostra experiència de Windows 11. Exploreu una nova era d’eficiència i
+    vostra experiència de Windows. Exploreu una nova era d’eficiència i
     multitasca amb la nostra interfície intuïtiva i les funcions avançades.
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   enable: Activa la barra d’eines de luxe
   auto_hide: Auto amaga
   label: Barra d’eines
+  delay_to_hide: Tarda en amagar-se
+  delay_to_show: Retard per mostrar
 wm:
   border:
     offset: Compensació fronterera
@@ -83,6 +86,8 @@ weg:
   label: Moll/barra de tasques
   auto_hide: Amaga automàtic
   dock_side: Posició
+  delay_to_hide: Tarda en amagar-se
+  delay_to_show: Retard per mostrar
 devtools:
   load: Carregar
   data_folder: Carpeta de dades
@@ -103,7 +108,6 @@ apps_configurations:
     workspace: Espai de treball
     name: Nom
     bindings: Enquadernació (nota les dues opcions són necessàries)
-    title_edit: Editing {{nom}}
     category: Categoria
     category_placeholder: Res
     title_readonly: Visualització {{nom}}
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Opcions de moll/barra de tasques
     wm_options_label: Opcions del gestor de finestres
     options_label: Opcions addicionals
+    title_edit: Edició {{nom}}
   identifier:
     add_block: Afegiu bloc
     remove: Esborra el bloc
@@ -229,8 +234,12 @@ monitors_configurations:
 wall:
   backgrounds: Fons de pantalla
   no_background: A la presentació de diapositives buides, utilitzant el fons del tema.
-  interval: Canvieu el fons de pantalla cada (segons)
-  enable: Activa la paret de Seelen
+  enable: Activa el gestor de fons de pantalla
+  random: Randomize Show de diapositives
+  interval: Canvieu el fons de pantalla cada
+  hours: hores
+  seconds: segons
+  minutes: minuts
 app_launcher:
   runners:
     label: Corredors
@@ -247,3 +256,8 @@ update:
   downloading: Descarregant ...
   channel: Canal d'actualització
 miscellaneous: Divers
+mods:
+  widgets: Widgets
+  plugins: Tapins
+  target: Objectiu
+remove: Treure

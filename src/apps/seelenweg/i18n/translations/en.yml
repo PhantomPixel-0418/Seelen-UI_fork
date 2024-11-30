@@ -3,7 +3,8 @@ taskbar_menu:
   start: Add Start Module
   add_file: Pin Custom File
   add_folder: Pin Custom Folder
-  settings: Open Settings
+  task_manager: Task Manager
+  settings: Settings
 app_menu:
   unpin: Unpin
   pin: Pin
@@ -15,6 +16,8 @@ app_menu:
   copy_handles: Copy Handles
   close: Close
   close_multiple: Close All
+media:
+  not_playing: Nothing is playing
 media_menu:
   remove: Remove Media Module
 start_menu:

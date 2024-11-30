@@ -21,16 +21,17 @@ header:
     shortcuts: الاختصارات
     developer: مطور
     info: معلومة
-    seelen_wall: الجدار
     seelen_rofi: قاذفة التطبيق
     virtual_desk: أجهزة الكمبيوتر المكتبية الافتراضية
     home: بيت
+    mods: الإضافات والحاجيات
+    seelen_wall: مدير خلفية
 start:
   title: مرحباً!
   message: >-
     مرحبًا بك في Seelen UI، بيئة سطح المكتب المثالية مع مدير النوافذ المدمج
-    لتحسين تجربة Windows 11 الخاصة بك! اكتشف عصرًا جديدًا من الكفاءة وتعدد
-    المهام من خلال الواجهة البديهية والميزات المتقدمة.
+    لتحسين تجربة Windows الخاصة بك! اكتشف عصرًا جديدًا من الكفاءة وتعدد المهام
+    من خلال الواجهة البديهية والميزات المتقدمة.
   message_accent: قم بتحسين إنتاجيتك بأناقة!
 general:
   startup: تشغيل عند بدء التشغيل؟
@@ -61,6 +62,8 @@ toolbar:
   height: ارتفاع
   auto_hide: الاختباء التلقائي
   label: شريط الأدوات
+  delay_to_show: تأخير في العرض
+  delay_to_hide: تأخير الاختباء
 wm:
   layout: تَخطِيط
   author: مؤلف
@@ -89,6 +92,8 @@ weg:
     gap: المسافة بين العناصر
     visible_separators: فواصل مرئية
   dock_side: موضع
+  delay_to_hide: تأخير الاختباء
+  delay_to_show: تأخير في العرض
 devtools:
   enable: تمكين أدوات المطور
   app_folders: مجلدات التطبيق
@@ -119,7 +124,6 @@ apps_configurations:
     monitor_placeholder: لا أحد
     workspace: مساحة العمل
     workspace_placeholder: لا أحد
-    title_edit: تعديل {{اسم}}
     title_create: إنشاء {{اسم}}
     title_readonly: عرض {{اسم}}
     ok_edit: تحديث
@@ -134,6 +138,7 @@ apps_configurations:
     weg_options_label: خيارات قفص الاتهام/شريط المهام
     wm_options_label: خيارات مدير النافذة
     options_label: خيارات إضافية
+    title_edit: تحرير {{name}}
   identifier:
     remove: حذف الحظر
     id: المعرف
@@ -220,10 +225,14 @@ save_and_restart: حفظ وإعادة التشغيل
 monitors_configurations:
   label: شاشة {{index}}
 wall:
-  enable: تمكين جدار سيلين
   backgrounds: خلفيات
   no_background: عرض شرائح فارغ ، باستخدام خلفية السمة بدلاً من ذلك.
-  interval: تغيير خلفية كل (ثواني)
+  enable: تمكين مدير خلفية
+  random: عرض عشوائي عرض الشرائح
+  interval: تغيير خلفية كل
+  hours: ساعات
+  seconds: ثوان
+  minutes: دقائق
 app_launcher:
   runners:
     explorer: يجري
@@ -240,3 +249,8 @@ update:
   channel: تحديث قناة
   downloading: تنزيل ...
 miscellaneous: متنوع
+mods:
+  target: هدف
+  widgets: الحاجيات
+  plugins: الإضافات
+remove: يزيل

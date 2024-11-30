@@ -1,6 +1,45 @@
 # Changelog
 
 ## [Unreleased]
+### enhancements
+- add task manager shortcut on toolbar and dock context menu.
+- improve default no media style on dock.
+
+### fix
+- randomized wallpaper slice freeze.
+
+## [2.0.7]
+### fix
+- crashing on fresh installations.
+
+## [2.0.6]
+### feature
+- add bases for future plugins and widgets sytems.
+- change wallpaper randomly.
+
+### enhancements
+- some UI/UX improvements on seelen wallpaper manager.
+- UI/UX improvements on wi-fi toolbar module.
+- seelen-ui added to user PATH enviroment variable.
+
+### fix
+- popups and context menus fast flashing.
+- media player app not appearing on media module (weg & toolbar).
+- touch looking the cursor.
+- improve start up failure behavior.
+
+## [2.0.5]
+### features
+- allow change default output volume using mouse wheel on media module items.
+- add mini calendar to date module.
+
+### enhancements
+- add new settings to delay the show and hide of dock and toolbar.
+
+### fix
+- dock and toolbar animations
+- fix update notifications for release and nightly channels.
+
 ## [2.0.4]
 ### fix
 - app crashing when changing settings on app launcher.

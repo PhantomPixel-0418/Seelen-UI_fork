@@ -2,7 +2,7 @@
   "$schema": "../gen/schemas/windows-schema.json",
   "identifier": "launcher",
   "windows": [
-    "seelen-launcher"
+    "seelen/launcher"
   ],
   "permissions": [
     "log:default",

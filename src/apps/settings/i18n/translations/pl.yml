@@ -14,16 +14,17 @@ header:
     seelen_bar: Fancy narzędzi
     shortcuts: Skróty
     seelen_wm: Menedżer okien
-    seelen_wall: Ściana
     seelen_rofi: Uruchamianie aplikacji
     virtual_desk: Wirtualne komputery stacjonarne
     home: Dom
+    mods: Wtyczki i widżety
+    seelen_wall: Menedżer tapety
 start:
   title: Powitanie!
   message: >-
     Witamy w Seelen UI, ostatecznym środowisku komputerowym z włączonym
-    menedżerem Windows Windows, aby poprawić Twoje wrażenia z systemu Windows
-    11! Przeglądaj nową erę wydajności i wielozadaniowości z naszym intuicyjnym
+    menedżerem Windows Windows, aby poprawić Twoje wrażenia z systemu Windows !
+    Przeglądaj nową erę wydajności i wielozadaniowości z naszym intuicyjnym
     interfejsem i zaawansowanymi funkcjami.
   message_accent: Zoptymalizuj swoją wydajność za pomocą stylu!
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: Włącz fantazyjny pasek narzędzi
   auto_hide: Auto Hide
   label: Pasek narzędzi
+  delay_to_hide: Opóźnienie w ukryciu
+  delay_to_show: Opóźnienie w pokazie
 wm:
   border:
     width: Szerokość granicy
@@ -83,6 +86,8 @@ weg:
   margin: Margines
   label: Dock/Pasek zadań
   dock_side: Pozycja
+  delay_to_show: Opóźnienie w pokazie
+  delay_to_hide: Opóźnienie w ukryciu
 devtools:
   load: Obciążenie
   custom_config_file: Załaduj niestandardowy plik konfiguracyjny
@@ -108,7 +113,6 @@ apps_configurations:
     title_readonly: Przeglądanie {{Nazwa}}
     workspace_placeholder: Nic
     ok_readonly: Edytuj jako nowy
-    title_edit: Edycja {{nazwa}}
     monitor: Monitor
     workspace: Obszar roboczy
     bindings: Wiązanie (wymagane są obie opcje)
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Opcje DOCK/PASKTA
     wm_options_label: Opcje menedżera okien
     options_label: Dodatkowe opcje
+    title_edit: Edycja {{nazwa}}
   identifier:
     and: I
     or: LUB
@@ -225,10 +230,14 @@ save_and_restart: Zapisz i uruchom ponownie
 monitors_configurations:
   label: Monitor {{indeks}}
 wall:
-  interval: Zmień tapetę co (sekundy)
   no_background: Pusty pokaz slajdów, zamiast tego używając tła motywu.
-  enable: Włącz ścianę Seelen
   backgrounds: Tapety
+  enable: Włącz menedżer tapety
+  random: Losowe slajd
+  interval: Zmień tapetę każdą
+  minutes: protokół
+  hours: godziny
+  seconds: towary drugiej jakości
 app_launcher:
   runners:
     explorer: Uruchomić
@@ -245,3 +254,8 @@ update:
   downloading: Ściąganie...
   channel: Kanał aktualizacji
 miscellaneous: Różnorodny
+mods:
+  target: Cel
+  widgets: Widżety
+  plugins: Wtyczki
+remove: Usunąć

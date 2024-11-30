@@ -14,15 +14,16 @@ header:
     seelen_weg: Dock/Taakbalk
     info: Informasie
     specific_apps: Spesifieke programme
-    seelen_wall: Die muur
     seelen_rofi: App -lanseerder
     virtual_desk: Virtuele tafelrekenaars
     home: Tuiste
+    mods: Inproppe en widgets
+    seelen_wall: Agtergrondbestuurder
 start:
   title: Welkom!
   message: >-
     Welkom by Seelen UI, die uiteindelike tafelrekenaaromgewing met 'n ingelyfde
-    teëlbestuurder om u Windows 11 -ervaring te verbeter! Ontdek 'n nuwe era van
+    teëlbestuurder om u Windows -ervaring te verbeter! Ontdek 'n nuwe era van
     doeltreffendheid en multitasking met ons intuïtiewe koppelvlak en gevorderde
     funksies.
   message_accent: Optimaliseer u produktiwiteit met styl!
@@ -55,6 +56,8 @@ toolbar:
   enable: Aktiveer Fancy Toolbar
   auto_hide: Outomatiese vel
   label: Werkbalk
+  delay_to_hide: Vertraag om weg te steek
+  delay_to_show: Vertraag om te wys
 wm:
   border:
     width: Grenswydte
@@ -83,6 +86,8 @@ weg:
   padding: Opvulling
   gap: Gat
   dock_side: Posisie
+  delay_to_hide: Vertraag om weg te steek
+  delay_to_show: Vertraag om te wys
 devtools:
   app_folders: APP -vouers
   load: Vrag
@@ -112,10 +117,10 @@ apps_configurations:
     bindings: Binding (let op albei opsies is nodig)
     workspace: Werkruimte
     category: Kategorie
-    title_edit: Ingebou {{name}}
     wm_options_label: Vensterbestuurderopsies
     weg_options_label: Dock/taakbalkopsies
     options_label: Ekstra opsies
+    title_edit: Redigering {{name}}
   identifier:
     remove: Vee blok uit
     add_block: Voeg blok by
@@ -228,9 +233,13 @@ monitors_configurations:
   label: Monitor {{index}}
 wall:
   no_background: Leë skyfievertoning en gebruik die agtergrond van die tema eerder.
-  interval: Verander plakpapier elke (sekondes)
-  enable: Aktiveer Seelen Wall
   backgrounds: Agtergronde
+  enable: Aktiveer agtergrondbestuurder
+  interval: Verander die muurpapier elke
+  random: Randomize skyfievertoning
+  minutes: minute
+  seconds: sekondes
+  hours: ure
 app_launcher:
   runners:
     explorer: Wedloop
@@ -247,3 +256,8 @@ update:
   downloading: Aflaai ...
   channel: Update Channel
 miscellaneous: Verskillend
+mods:
+  widgets: Widgets
+  plugins: Plugins
+  target: Teiken
+remove: Verwyder

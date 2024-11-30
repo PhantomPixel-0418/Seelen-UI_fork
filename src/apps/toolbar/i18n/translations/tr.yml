@@ -14,6 +14,11 @@ network:
   hidden: Gizli Ağ
   not_found: Ağ bulunamadı
   disconnect: Bağlantıyı Kes
+  connected: 'Şuraya bağlanıldı:'
+  saved: Kayıtlı ağlar
+  secured: Şifreli ağ
+  available: Mevcut ağlar
+  scanning: Ağlar taranıyor
 settings:
   shutdown: Kapat
   app_settings: Uygulama Ayarları
@@ -35,4 +40,7 @@ placeholder:
   notifications: Bildirimler
 unlabelled_tray: Etiketlenmemiş Tepsi Simgesi
 context_menu:
-  remove: Öğeyi kaldır
+  remove: Modülü Kaldır
+  add_module: Modül ekle
+  task_manager: Görev Yöneticisi
+  settings: Ayarlar

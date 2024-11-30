@@ -14,6 +14,11 @@ network:
   more: Meelo badan oo shabakad ah
   disconnect: Ka furid
   connect: Ku xirid
+  scanning: Sawirka shabakadaha
+  saved: Shabakado la keydiyay
+  secured: Shabakadda qarsoon
+  connected: Ku xidhan
+  available: Shabakado la heli karo
 settings:
   shutdown: Bakhtii
   log_out: Ka bax
@@ -35,4 +40,7 @@ placeholder:
   notifications: Ogeysiisyada
 unlabelled_tray: UNIBLEMEMEMED TRAY
 context_menu:
-  remove: Ka saar sheyga
+  remove: Ka saar cutubka
+  add_module: Ku dar module
+  settings: Dejinta
+  task_manager: Maareeyaha Hawsha

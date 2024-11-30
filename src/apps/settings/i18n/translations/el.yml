@@ -14,17 +14,18 @@ header:
     shortcuts: Συντομεύσεις
     specific_apps: Συγκεκριμένες εφαρμογές
     seelen_weg: Λέσχη εργασιών
-    seelen_wall: Ο τοίχος
     seelen_rofi: Εκτοξευτής εφαρμογών
     virtual_desk: Εικονικοί επιτραπέζιοι
     home: Σπίτι
+    mods: Πρόσθετα & Widgets
+    seelen_wall: Διευθυντής ταπετσαρίας
 start:
   message_accent: Βελτιστοποιήστε την παραγωγικότητά σας με στυλ!
   title: Καλως ΗΡΘΑΤΕ!
   message: >-
     Καλώς ήλθατε στο Seelen UI, το Ultimate Desktop Environment με έναν
     ενσωματωμένο διαχειριστή Windows για να βελτιώσετε την εμπειρία των Windows
-    11! Εξερευνήστε μια νέα εποχή αποτελεσματικότητας και πολλαπλών εργασιών με
+    ! Εξερευνήστε μια νέα εποχή αποτελεσματικότητας και πολλαπλών εργασιών με
     την διαισθητική διεπαφή και τα προηγμένα χαρακτηριστικά μας.
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   enable: Ενεργοποίηση φανταχτερά εργαλεία εργαλείων
   auto_hide: Αυτόματη απόκρυψη
   label: Γραμμή εργαλείων
+  delay_to_hide: Καθυστέρηση για απόκρυψη
+  delay_to_show: Καθυστέρηση εμφάνισης
 wm:
   border:
     offset: Μετατόπιση των συνόρων
@@ -83,6 +86,8 @@ weg:
   label: Λέσχη εργασιών
   enable: Ενεργοποίηση λίστα/γραμμή εργασιών
   dock_side: Θέση
+  delay_to_show: Καθυστέρηση εμφάνισης
+  delay_to_hide: Καθυστέρηση για απόκρυψη
 devtools:
   data_folder: Φάκελος δεδομένων
   custom_config_file: Φόρτωση προσαρμοσμένου αρχείου ρυθμίσεων
@@ -112,10 +117,10 @@ apps_configurations:
     ok_edit: Εκσυγχρονίζω
     workspace_placeholder: Κανένας
     workspace: Χώρος εργασίας
-    title_edit: Επεξεργασία {{όνομα}}
     weg_options_label: Επιλογές της γραμμής αποβάθρας/εργασιών
     wm_options_label: Επιλογές διαχείρισης παραθύρων
     options_label: Επιπλέον επιλογές
+    title_edit: Επεξεργασία {{όνομα}}
   identifier:
     or: Ή
     id: Αναγνωριστικό
@@ -229,9 +234,13 @@ monitors_configurations:
   label: Monitor {{index}}
 wall:
   no_background: Άδειο slideshow, χρησιμοποιώντας το φόντο του θέματος αντ 'αυτού.
-  enable: Ενεργοποιήστε το Wall Seelen
-  interval: Αλλάξτε ταπετσαρία κάθε (δευτερόλεπτα)
   backgrounds: Ταπετσαρίες
+  enable: Ενεργοποίηση διαχειριστή ταπετσαρίας
+  interval: Αλλάξτε ταπετσαρία κάθε
+  random: Τυχαία παρουσίαση
+  minutes: πρακτικά
+  seconds: δευτερόλεπτα
+  hours: ώρες
 app_launcher:
   runners:
     explorer: Τρέξιμο
@@ -248,3 +257,8 @@ update:
   channel: Κανάλι ενημέρωσης
   downloading: Λήψη ...
 miscellaneous: Ανάμικτος
+mods:
+  target: Στόχος
+  widgets: Widgets
+  plugins: Πρόσθετα
+remove: Αφαιρώ

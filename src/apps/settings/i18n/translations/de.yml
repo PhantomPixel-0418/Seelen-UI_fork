@@ -21,17 +21,18 @@ header:
     shortcuts: Kurzbefehle
     developer: Entwickler
     info: Information
-    seelen_wall: Die Wand
     seelen_rofi: App Launcher
     virtual_desk: Virtuelle Desktops
     home: Home
+    mods: Plugins und Widgets
+    seelen_wall: Tapetenmanager
 start:
   title: Willkommen!
   message: >-
     Willkommen bei Seelen UI, der ultimativen Desktop-Umgebung mit einem
-    integrierten Fenstermanager, um dein Windows 11-Erlebnis zu
-    verbessern! Erkunde eine neue Ära der Effizienz und Multitasking mit unserer
-    intuitiven Oberfläche und fortschrittlichen Funktionen.
+    integrierten Fenstermanager, um dein Windows-Erlebnis zu verbessern! Erkunde
+    eine neue Ära der Effizienz und Multitasking mit unserer intuitiven
+    Oberfläche und fortschrittlichen Funktionen.
   message_accent: Optimiere deine Produktivität mit Stil!
 general:
   startup: Beim Hochfahren ausführen?
@@ -62,6 +63,8 @@ toolbar:
   height: Höhe
   auto_hide: Automatisch ausblenden
   label: Symbolleiste
+  delay_to_hide: Verzögerung zum Verstecken
+  delay_to_show: Verzögerung beim Anzeigen
 wm:
   layout: Layout
   author: Autor
@@ -90,6 +93,8 @@ weg:
     gap: Abstand zwischen Elementen
     visible_separators: Sichtbare Trennzeichen
   dock_side: Position
+  delay_to_show: Verzögerung beim Anzeigen
+  delay_to_hide: Verzögerung zum Verstecken
 devtools:
   enable: Entwicklerwerkzeuge aktivieren
   app_folders: Anwendungsordner
@@ -121,7 +126,6 @@ apps_configurations:
     monitor_placeholder: Keine
     workspace: Arbeitsbereich
     workspace_placeholder: Keine
-    title_edit: '{{name}} bearbeiten'
     title_create: '{{name}} erstellen'
     title_readonly: '{{name}} ansehen'
     ok_edit: Ändern
@@ -136,6 +140,7 @@ apps_configurations:
       force: Verwaltung erzwingen
       pinned: Angeheftet
       hidden: Vor Dock/Taskleiste verstecken
+    title_edit: Bearbeitung {{Name}}
   identifier:
     remove: Block löschen
     id: Identifikator
@@ -227,10 +232,14 @@ save_and_restart: Speichern & neu starten
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  enable: Aktivieren Sie Seelen Wall
   no_background: Leere Diashow, stattdessen wird der Hintergrund des Themas verwendet.
-  interval: Wechseln Sie das Hintergrundbild alle [Sekunden]
   backgrounds: Hintergrundbilder
+  enable: Tapetenmanager aktivieren
+  interval: Wechseln Sie die Hintergrundbild
+  random: Die Diashow randomisieren
+  hours: Std.
+  seconds: Sekunden
+  minutes: Minuten
 app_launcher:
   runners:
     cmd: Befehl
@@ -247,3 +256,8 @@ update:
   downloading: Am Herunterladen ...
   channel: Update-Kanal
 miscellaneous: Verschiedenes
+mods:
+  target: Ziel
+  widgets: Widgets
+  plugins: Plugins
+remove: Entfernen

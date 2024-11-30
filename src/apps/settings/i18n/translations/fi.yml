@@ -15,17 +15,18 @@ header:
     specific_apps: Erityiset sovellukset
     general: Yleinen
     seelen_rofi: Sovelluskäynnistys
-    seelen_wall: Seinä
     virtual_desk: Virtuaalinen työpöytä
     home: Kotiin
+    mods: Lisäosat ja widgetit
+    seelen_wall: Taustakuvan johtaja
 start:
   title: Tervetuloa!
   message_accent: Optimoi tuottavuus tyylillä!
   message: >-
     Tervetuloa Seelen UI: hen, Ultimate Desktop -ympäristöön, jossa on
-    sisällytetty laatoitus Windows Manager, parantaaksesi Windows 11
-    -kokemustasi! Tutustu uuteen tehokkuuden ja monitehtavan aikakauteen
-    intuitiivisella rajapinnalla ja edistyneillä ominaisuuksilla.
+    sisällytetty laatoitus Windows Manager, parantaaksesi Windows -kokemustasi!
+    Tutustu uuteen tehokkuuden ja monitehtavan aikakauteen intuitiivisella
+    rajapinnalla ja edistyneillä ominaisuuksilla.
 general:
   theme:
     description: Kuvaus
@@ -55,6 +56,8 @@ toolbar:
   enable: Ota hieno työkalurivi käyttöön
   auto_hide: Automaattinen piilo
   label: Työkalurivi
+  delay_to_hide: Viive piilottaa
+  delay_to_show: Viive näyttöön
 wm:
   border:
     offset: Rajan siirtyminen
@@ -83,6 +86,8 @@ weg:
   label: Telakka/tehtäväpalkki
   enable: Ota Dock/tehtäväpalkki käyttöön
   dock_side: Sijainti
+  delay_to_hide: Viive piilottaa
+  delay_to_show: Viive näyttöön
 devtools:
   load: Ladata
   custom_config_file: Lataa mukautettu konfigurointitiedosto
@@ -101,7 +106,6 @@ apps_configurations:
       hidden: Piiloutua telakalta/tehtäväpalkista
     category: Kategoria
     title_create: '{{Nimi}} luominen'
-    title_edit: Muokkaaminen {{nimi}}
     category_placeholder: Ei mitään
     ok_edit: Päivittää
     workspace: Työtila
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Dock/tehtäväpalkin vaihtoehdot
     wm_options_label: Window Manager -vaihtoehdot
     options_label: Ylimääräiset vaihtoehdot
+    title_edit: Muokkaaminen {{nimi}}
   identifier:
     add_block: Lisätä
     remove: Poistaa lohko
@@ -227,10 +232,14 @@ save_and_restart: Tallenna ja käynnistä uudelleen
 monitors_configurations:
   label: Monitor {{hakemisto}}
 wall:
-  interval: Vaihda taustakuva joka (sekunti)
-  enable: Ota Seelen seinälle käyttöön
   no_background: Tyhjä diaesitys käyttämällä sen sijaan teeman taustalla.
   backgrounds: Taustakuvat
+  enable: Ota taustakuvan johtaja käyttöön
+  random: Satunnaista diaesitys
+  interval: Vaihda taustakuva jokainen
+  hours: tuntia
+  seconds: sekunti
+  minutes: minuutti
 app_launcher:
   runners:
     cmd: Komento
@@ -247,3 +256,8 @@ update:
   downloading: Lataaminen ...
   channel: Päivityskanava
 miscellaneous: Sekalainen
+mods:
+  plugins: Plugins
+  target: Kohde
+  widgets: Widgetit
+remove: Poistaa

@@ -14,6 +14,11 @@ network:
   disconnect: Deconectat
   more: Mai multe setări de rețea
   hidden: Rețea ascunsă
+  connected: Conectat la
+  scanning: Scanare pentru rețele
+  saved: Rețele salvate
+  secured: Rețea criptată
+  available: Rețele disponibile
 settings:
   shutdown: Închide
   sleep: Dormi
@@ -35,4 +40,7 @@ placeholder:
   notifications: Notificări
 unlabelled_tray: Pictograma tăvii nemarcate
 context_menu:
-  remove: Eliminați elementul
+  add_module: Adăugați modul
+  remove: Scoateți modulul
+  settings: Setări
+  task_manager: Manager de activități

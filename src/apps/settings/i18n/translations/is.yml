@@ -14,16 +14,17 @@ header:
     specific_apps: Sérstök forrit
     developer: Hönnuður
     seelen_weg: Bryggju/verkefnabar
-    seelen_wall: Vegginn
     seelen_rofi: App Launcher
     virtual_desk: Sýndarskjáborð
     home: Heim
+    mods: Viðbætur og búnaður
+    seelen_wall: Veggfóður framkvæmdastjóri
 start:
   title: Velkominn!
   message_accent: Fínstilltu framleiðni þína með stæl!
   message: >-
     Verið velkomin í Seelen HÍ, fullkominn skrifborðsumhverfi með innbyggðan
-    flísar Windows Manager til að auka Windows 11 upplifun þína! Kannaðu nýtt
+    flísar Windows Manager til að auka Windows upplifun þína! Kannaðu nýtt
     tímabil skilvirkni og fjölverkavinnslu með leiðandi viðmóti okkar og
     háþróaðri eiginleika.
 general:
@@ -55,6 +56,8 @@ toolbar:
   height: Hæð
   auto_hide: Sjálfvirk fela
   label: Tækjastikur
+  delay_to_show: Seinkun á sýningu
+  delay_to_hide: Seinkun á að fela
 wm:
   border:
     enable: Virkja landamæri glugga
@@ -83,6 +86,8 @@ weg:
   margin: Framlegð
   padding: Padding
   dock_side: Staða
+  delay_to_hide: Seinkun á að fela
+  delay_to_show: Seinkun á sýningu
 devtools:
   load: Hlaða
   app_folders: App möppur
@@ -112,10 +117,10 @@ apps_configurations:
     bindings: Binding (athugaðu að báðir valkostirnir eru nauðsynlegir)
     ok_edit: UPDATE
     ok_create: Búa til
-    title_edit: Breyta {{name}}
     weg_options_label: Valkostir bryggju/verkefna
     wm_options_label: Valkostir gluggastjóra
     options_label: Auka valkostir
+    title_edit: Breyting {{name}}
   identifier:
     matching_strategy: Samsvarandi stefna
     add_block: Bæta við blokk
@@ -224,9 +229,13 @@ monitors_configurations:
   label: Monitor {{Index}}
 wall:
   backgrounds: Veggfóður
-  interval: Skiptu um veggfóður á hverju (sekúndum)
-  enable: Virkja Seelen Wall
   no_background: Tómar myndasýning, með því að nota bakgrunn þema í staðinn.
+  enable: Virkja veggfóðursstjóra
+  random: Slendandi myndasýning
+  interval: Skiptu um veggfóður hvert
+  hours: klukkustundir
+  seconds: sekúndur
+  minutes: mínútur
 app_launcher:
   runners:
     label: Hlauparar
@@ -243,3 +252,8 @@ update:
   channel: Uppfæra rás
   downloading: Niðurhal ...
 miscellaneous: Ýmislegt
+mods:
+  plugins: Viðbætur
+  target: Miðaðu
+  widgets: Búnaður
+remove: Fjarlægðu

@@ -14,6 +14,11 @@ network:
   connect: కనెక్ట్
   hidden: దాచిన నెట్‌వర్క్
   more: మరిన్ని నెట్‌వర్క్ సెట్టింగులు
+  connected: కనెక్ట్ చేయబడింది
+  available: అందుబాటులో ఉన్న నెట్‌వర్క్‌లు
+  scanning: నెట్‌వర్క్‌ల కోసం స్కాన్ చేస్తోంది
+  saved: సేవ్ చేసిన నెట్‌వర్క్‌లు
+  secured: ఎన్‌క్రిప్టెడ్ నెట్‌వర్క్
 settings:
   log_out: లాగ్ అవుట్
   app_settings: అనువర్తన సెట్టింగులు
@@ -35,4 +40,7 @@ placeholder:
   notifications: నోటిఫికేషన్‌లు
 unlabelled_tray: లేబుల్ చేయని ట్రే చిహ్నం
 context_menu:
-  remove: అంశాన్ని తొలగించండి
+  remove: మాడ్యూల్ తొలగించండి
+  add_module: మాడ్యూల్ జోడించండి
+  settings: సెట్టింగ్‌లు
+  task_manager: టాస్క్ మేనేజర్

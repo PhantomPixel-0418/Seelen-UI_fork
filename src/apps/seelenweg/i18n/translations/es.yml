@@ -1,9 +1,10 @@
 taskbar_menu:
   media: Añadir módulo de medios
   start: Añadir módulo de inicio
-  settings: Abrir configuraciones
   add_folder: Carpeta personalizada
   add_file: Pin archivo personalizado
+  task_manager: Administrador de tareas
+  settings: Ajustes
 app_menu:
   unpin: Desanclar
   pin: Anclar
@@ -19,3 +20,5 @@ media_menu:
   remove: Eliminar módulo de medios
 start_menu:
   remove: Eliminar módulo de inicio
+media:
+  not_playing: Nada esta jugando

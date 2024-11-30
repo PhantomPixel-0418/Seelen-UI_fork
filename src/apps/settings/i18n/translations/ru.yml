@@ -21,16 +21,17 @@ header:
     shortcuts: Ярлыки
     developer: Разработчик
     info: Информация
-    seelen_wall: Стена
     seelen_rofi: Приложение пусковая установка
     virtual_desk: Виртуальные рабочие столы
     home: Дом
+    mods: Плагины и виджеты
+    seelen_wall: Управляющий обоями
 start:
   title: Добро пожаловать!
   message: >-
     Добро пожаловать в Seelen UI, превосходное окружение рабочего стола со
     встроенным менеджером окон с плиточным расположением для улучшения работы с
-    Windows 11! Откройте для себя новую эру эффективности и многозадачности
+    Windows! Откройте для себя новую эру эффективности и многозадачности
     благодаря интуитивно понятному интерфейсу и расширенным возможностям.
   message_accent: Оптимизируйте свою производительность стильно!
 general:
@@ -62,6 +63,8 @@ toolbar:
   height: Высота
   auto_hide: Автоскрытие
   label: Верхняя панель
+  delay_to_hide: Задержка, чтобы скрыть
+  delay_to_show: Задержка показа
 wm:
   layout: Макет
   author: Автор
@@ -90,6 +93,8 @@ weg:
     zoom_size: Увеличенный размер (используется для тем)
     gap: Расстояние между иконок
     visible_separators: Разделители
+  delay_to_show: Задержка показа
+  delay_to_hide: Задержка, чтобы скрыть
 devtools:
   enable: Включить инструменты разработчика
   app_folders: Папки приложения
@@ -121,7 +126,6 @@ apps_configurations:
     monitor_placeholder: Нет
     workspace: Рабочая область
     workspace_placeholder: Нет
-    title_edit: Изменение {{name}}
     title_create: Создание {{name}}
     title_readonly: Просмотр {{name}}
     ok_edit: Обновить
@@ -136,6 +140,7 @@ apps_configurations:
     wm_options_label: Параметры управления окном
     weg_options_label: Параметры панели задач
     options_label: Дополнительные параметры
+    title_edit: Редактирование {{name}}
   identifier:
     remove: Удалить блок
     id: Идентификатор
@@ -227,10 +232,14 @@ save_and_restart: Сохранить и перезапустить
 monitors_configurations:
   label: Монитор {{index}}
 wall:
-  interval: Измените обои каждый (секунды)
   backgrounds: Обои
   no_background: Пустое слайд -шоу, используя фон темы.
-  enable: Включить стену Сиэлен
+  enable: Включить менеджер обоев
+  interval: Измените обои каждый
+  random: Рандомизируйте слайд -шоу
+  minutes: минуты
+  seconds: секунды
+  hours: часы
 app_launcher:
   runners:
     explorer: Бегать
@@ -247,3 +256,8 @@ update:
   downloading: Загрузка ...
   channel: Обновить канал
 miscellaneous: Разнообразный
+mods:
+  widgets: Виджеты
+  target: Цель
+  plugins: Плагины
+remove: Удалять

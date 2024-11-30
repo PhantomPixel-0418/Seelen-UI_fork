@@ -15,14 +15,15 @@ header:
     shortcuts: Parancsikonok
     seelen_wm: Ablakvezető
     seelen_rofi: Alkalmazásindító
-    seelen_wall: A fal
     virtual_desk: Virtuális asztali számítógépek
     home: Otthon
+    mods: Bővítmények és widgetek
+    seelen_wall: Háttérképkezelő
 start:
   title: Üdvözöljük!
   message: >-
     Üdvözöljük a Seelen UI -ban, az Ultimate Desktop környezetben egy beépített
-    burkolólap Windows Manager -rel, hogy javítsa a Windows 11 élményét! Fedezze
+    burkolólap Windows Manager -rel, hogy javítsa a Windows élményét! Fedezze
     fel a hatékonyság és a multitasking új korszakát az intuitív felületünkkel
     és a fejlett funkciókkal.
   message_accent: Optimalizálja a termelékenységet stílusosan!
@@ -55,6 +56,8 @@ toolbar:
   enable: Engedélyezze a divatos eszköztárat
   auto_hide: Autóbizalom
   label: Eszköztár
+  delay_to_hide: Késleltesse az elrejtést
+  delay_to_show: Megjelenítés késleltetése
 wm:
   border:
     enable: Engedélyezze az ablak szegélyét
@@ -83,6 +86,8 @@ weg:
   label: Dokk/tálca
   enable: Engedélyezze a dokkolót/tálcát
   dock_side: Pozíció
+  delay_to_hide: Késleltesse az elrejtést
+  delay_to_show: Megjelenítés késleltetése
 devtools:
   load: Betöltés
   app_folders: App mappák
@@ -109,13 +114,13 @@ apps_configurations:
     category_placeholder: Egyik sem
     bindings: Kötés (vegye figyelembe, hogy mindkét lehetőség szükséges)
     title_readonly: '{{Név}} megtekintés'
-    title_edit: '{{Név}} szerkesztés'
     title_create: '{{Név}} létrehozása'
     monitor: Monitor
     ok_edit: Frissít
     weg_options_label: Dokk/tálcás lehetőségek
     wm_options_label: Ablakkezelő opciók
     options_label: Extra lehetőségek
+    title_edit: Szerkesztés {{név}}
   identifier:
     or: VAGY
     add_block: Blokk hozzáadása
@@ -224,10 +229,14 @@ save_and_restart: Mentés és újraindítás
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  enable: Engedélyezze a Seelen Wall -ot
   backgrounds: Háttérképek
   no_background: Üres diavetítés, inkább a téma hátterének felhasználásával.
-  interval: Változtassa meg a háttérképet minden (másodperc)
+  enable: Engedélyezze a háttérképkezelőt
+  interval: Változtasd meg minden háttérképet
+  random: Véletlenszerűsítse a diavetítést
+  minutes: jegyzőkönyv
+  hours: órák
+  seconds: másodpercek
 app_launcher:
   runners:
     cmd: Parancs
@@ -244,3 +253,8 @@ update:
   channel: Frissítési csatorna
   downloading: Letöltés ...
 miscellaneous: Különféle
+mods:
+  target: Cél
+  plugins: Plugins
+  widgets: Kütyü
+remove: Eltávolítás

@@ -14,17 +14,18 @@ header:
     seelen_weg: Dock / Taskbar
     developer: Żviluppatur
     monitors: Monitors
-    seelen_wall: Il-ħajt
     seelen_rofi: APP Lancher
     virtual_desk: Desktops virtwali
     home: Id-dar
+    mods: Plugins u Widgets
+    seelen_wall: Maniġer tal-Wallpaper
 start:
   title: Merħba!
   message: >-
     Merħba għal Seelen UI, l-ambjent tad-desktop aħħari b'maniġġ tal-Windows
-    tal-madum inkorporat biex itejjeb l-esperjenza tal-Windows 11 tiegħek!
-    Esplora era ġdida ta 'effiċjenza u multitasking bl-interface intuwittiv
-    tagħna u karatteristiċi avvanzati.
+    tal-madum inkorporat biex itejjeb l-esperjenza tal-Windows tiegħek! Esplora
+    era ġdida ta 'effiċjenza u multitasking bl-interface intuwittiv tagħna u
+    karatteristiċi avvanzati.
   message_accent: Ottimizza l-produttività tiegħek bl-istil!
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   enable: Jippermetti toolbar tal-fancy
   auto_hide: Auto Hide
   label: Toolbar
+  delay_to_show: Dewmien biex juri
+  delay_to_hide: Dewmien biex jinħbew
 wm:
   border:
     enable: Ippermetti l-fruntiera tat-tieqa
@@ -83,6 +86,8 @@ weg:
   padding: Ikkuttunar
   margin: Marġni
   dock_side: Pożizzjoni
+  delay_to_show: Dewmien biex juri
+  delay_to_hide: Dewmien biex jinħbew
 devtools:
   data_folder: Folder tad-dejta
   install_folder: Folder tal-installazzjoni
@@ -111,11 +116,11 @@ apps_configurations:
     ok_create: Oħloq
     category: Kategorija
     bindings: Torbot (innota ż-żewġ għażliet huma meħtieġa)
-    title_edit: Editting {{isem}}
     monitor_placeholder: Xejn
     wm_options_label: Għażliet tal-Maniġer tat-Tieqa
     weg_options_label: Għażliet tal-baċir / taskbar
     options_label: Għażliet żejda
+    title_edit: Editjar {{isem}}
   identifier:
     matching_strategy: Strateġija ta 'tqabbil
     and: U
@@ -225,10 +230,14 @@ save_and_restart: Issejvja u terġa 'tibda
 monitors_configurations:
   label: Monitor {{indiċi}}
 wall:
-  enable: Jippermetti ħajt tas-seelen
-  interval: Ibdel il-wallpaper kull (sekondi)
   backgrounds: Wallpapers
   no_background: Slideshow vojta, billi tuża l-isfond tat-tema minflok.
+  enable: Enable Wallpaper Manager
+  interval: Ibdel il-wallpaper kull
+  random: Randomize slideshow
+  seconds: sekondi
+  minutes: minuti
+  hours: sigħat
 app_launcher:
   runners:
     explorer: Ġirja
@@ -245,3 +254,8 @@ update:
   channel: Aġġorna l-kanal
   downloading: Tniżżil ...
 miscellaneous: Varji
+mods:
+  target: Mira
+  widgets: Widgets
+  plugins: Plugins
+remove: Neħħi

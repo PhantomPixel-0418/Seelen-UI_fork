@@ -15,12 +15,13 @@ header:
     developer: ਵਿਕਾਸਕਾਰ
     seelen_weg: ਡੌਕ/ਟਾਸਕਬਾਰ
     seelen_rofi: ਐਪ ਲਾਂਚਰ
-    seelen_wall: ਕੰਧ
     virtual_desk: ਵਰਚੁਅਲ ਡੈਸਕਟਾਪ
     home: ਘਰ
+    mods: ਪਲੱਗਇਨ ਅਤੇ ਵਿਜੇਟਸ
+    seelen_wall: ਵਾਲਪੇਪਰ ਮੈਨੇਜਰ
 start:
   message: >-
-    Seelen UI ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ, ਤੁਹਾਡੇ Windows 11 ਅਨੁਭਵ ਨੂੰ ਵਧਾਉਣ ਲਈ ਇੱਕ
+    Seelen UI ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ, ਤੁਹਾਡੇ Windows ਅਨੁਭਵ ਨੂੰ ਵਧਾਉਣ ਲਈ ਇੱਕ
     ਇਨਕੋਪੋਰੇਟਿਡ ਟਾਈਲਿੰਗ ਵਿੰਡੋਜ਼ ਮੈਨੇਜਰ ਦੇ ਨਾਲ ਅੰਤਮ ਡੈਸਕਟਾਪ ਵਾਤਾਵਰਨ! ਸਾਡੇ ਅਨੁਭਵੀ
     ਇੰਟਰਫੇਸ ਅਤੇ ਉੱਨਤ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਾਲ ਕੁਸ਼ਲਤਾ ਅਤੇ ਮਲਟੀਟਾਸਕਿੰਗ ਦੇ ਇੱਕ ਨਵੇਂ ਯੁੱਗ
     ਦੀ ਪੜਚੋਲ ਕਰੋ।
@@ -55,6 +56,8 @@ toolbar:
   enable: ਫੈਂਸੀ ਟੂਲਬਾਰ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ
   auto_hide: ਆਟੋ ਓਹਲੇ
   label: ਟੂਲਬਾਰ
+  delay_to_show: ਦਿਖਾਉਣ ਵਿੱਚ ਦੇਰੀ
+  delay_to_hide: ਛੁਪਾਉਣ ਲਈ ਦੇਰੀ
 wm:
   border:
     offset: ਬਾਰਡਰ ਆਫਸੈੱਟ
@@ -83,6 +86,8 @@ weg:
   margin: ਹਾਸ਼ੀਏ
   label: ਡੌਕ/ਟਾਸਕਬਾਰ
   dock_side: ਸਥਿਤੀ
+  delay_to_hide: ਛੁਪਾਉਣ ਲਈ ਦੇਰੀ
+  delay_to_show: ਦਿਖਾਉਣ ਵਿੱਚ ਦੇਰੀ
 devtools:
   load: ਲੋਡ ਕਰੋ
   settings_file: ਸੈਟਿੰਗਜ਼ ਫਾਈਲ
@@ -107,7 +112,6 @@ apps_configurations:
     workspace: ਵਰਕਸਪੇਸ
     name: ਨਾਮ
     workspace_placeholder: ਕੋਈ ਨਹੀਂ
-    title_edit: ਸੰਪਾਦਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ {{name}}
     ok_create: ਬਣਾਓ
     category_placeholder: ਕੋਈ ਨਹੀਂ
     ok_edit: ਅਪਡੇਟ
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: ਵਿੰਡੋ ਮੈਨੇਜਰ ਦੇ ਵਿਕਲਪ
     weg_options_label: ਡੌਕ / ਟਾਸਕਬਾਰ ਚੋਣਾਂ
     options_label: ਵਾਧੂ ਵਿਕਲਪ
+    title_edit: ਸੰਪਾਦਨ {ime neame}
   identifier:
     kind: ਦੁਆਰਾ ਪਛਾਣੋ
     id: ਪਛਾਣਕਰਤਾ
@@ -223,8 +228,12 @@ monitors_configurations:
 wall:
   no_background: ਇਸ ਦੀ ਬਜਾਏ ਥੀਮ ਦੇ ਬੈਕਗ੍ਰਾਉਂਡ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ, ਖਾਲੀ ਸਲਾਈਡ ਸ਼ੋਅ ਕਰੋ.
   backgrounds: ਵਾਲਪੇਪਰ
-  interval: ਵਾਲਪੇਪਰ ਨੂੰ ਹਰ (ਸਕਿੰਟ) ਬਦਲੋ
-  enable: ਧੁੱਪ ਦੀ ਕੰਧ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ
+  enable: ਵਾਲਪੇਪਰ ਮੈਨੇਜਰ ਨੂੰ ਸਮਰੱਥ ਕਰੋ
+  interval: ਵਾਲਪੇਪਰ ਬਦਲੋ
+  random: ਸਿਲਾਈਡ ਸਲਾਈਡ ਸ਼ੋਅ
+  hours: ਘੰਟੇ
+  seconds: ਸਕਿੰਟ
+  minutes: ਮਿੰਟ
 app_launcher:
   runners:
     label: ਦੌੜਾਕ
@@ -241,3 +250,8 @@ update:
   channel: ਚੈਨਲ ਅਪਡੇਟ ਕਰੋ
   downloading: ਡਾ ing ਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ...
 miscellaneous: ਫੁਟਕਲ
+mods:
+  plugins: ਪਲੱਗਇਨ
+  target: ਟੀਚਾ
+  widgets: ਵਿਜੇਟਸ
+remove: ਹਟਾਓ

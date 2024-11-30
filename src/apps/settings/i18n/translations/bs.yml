@@ -14,16 +14,17 @@ header:
     seelen_wm: Upravitelj prozora
     info: Informacije
     shortcuts: Prečice
-    seelen_wall: Zid
     seelen_rofi: Pokretanje aplikacija
     virtual_desk: Virtualne radne površine
     home: Dom
+    mods: Dodaci i vidžeti
+    seelen_wall: Bilank menadžer
 start:
   title: Dobrodošli!
   message_accent: Optimizirajte svoju produktivnost sa stilom!
   message: >-
     Dobrodošli u Seelen UI, vrhunsko okruženje za radnu površinu sa ugrađenim
-    popločavanjem Windows Manager-a za poboljšanje vašeg Windows 11 iskustva!
+    popločavanjem Windows Manager-a za poboljšanje vašeg Windows iskustva!
     Istražite novu eru efikasnosti i više zadataka sa našim intuitivnim
     interfejsom i naprednim funkcijama.
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: Omogući fantastičnu alatnu traku
   auto_hide: Auto se sakrio
   label: Alatna traka
+  delay_to_show: Kašnjenje za prikaz
+  delay_to_hide: Odložite da se sakrijete
 wm:
   border:
     width: Širina granice
@@ -83,6 +86,8 @@ weg:
   padding: Obloga
   enable: Omogući pristanište / traku zadataka
   dock_side: Položaj
+  delay_to_hide: Odložite da se sakrijete
+  delay_to_show: Kašnjenje za prikaz
 devtools:
   app_folders: App Mape
   settings_file: Datoteka postavki
@@ -112,10 +117,10 @@ apps_configurations:
     ok_edit: Ažurirati
     workspace: Radni prostor
     title_create: Stvarajući {{ime}}
-    title_edit: Uređivanje {{ime}}
     wm_options_label: Opcije prozora upravitelja
     weg_options_label: Opcije pristaništa / trake zadataka
     options_label: Dodatne opcije
+    title_edit: Uređivanje {{ime}}
   identifier:
     matching_strategy: Strategija podudaranja
     and: I
@@ -227,8 +232,12 @@ monitors_configurations:
 wall:
   backgrounds: Pozadine
   no_background: Prazno prezentacija, koristeći temu, umjesto toga.
-  interval: Promenite pozadinu svake (sekunde)
-  enable: Omogući Seelen Wall
+  enable: Omogućite menadžer pozadina
+  random: Randomizirajte prezentaciju
+  interval: Promijenite pozadinu svake
+  seconds: sekundi
+  hours: sati
+  minutes: minuta
 app_launcher:
   runners:
     cmd: Naredba
@@ -245,3 +254,8 @@ update:
   channel: Ažuriraj kanal
   downloading: Preuzimanje ...
 miscellaneous: Ostalo
+mods:
+  target: Ciljati
+  plugins: Dodaci
+  widgets: Widgeti
+remove: Ukloniti

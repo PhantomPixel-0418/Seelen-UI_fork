@@ -15,17 +15,18 @@ header:
     seelen_bar: Fint verktygsfält
     shortcuts: Genvägar
     seelen_rofi: Appstart
-    seelen_wall: Väggen
     virtual_desk: Virtuella stationära datorer
     home: Hem
+    mods: Plugins och widgets
+    seelen_wall: Tapetchef
 start:
   title: Välkommen!
   message_accent: Optimera din produktivitet med stil!
   message: >-
     Välkommen till Seelen UI, den ultimata skrivbordsmiljön med en införlivad
-    kakling Windows Manager för att förbättra din Windows 11 -upplevelse!
-    Utforska en ny era av effektivitet och multitasking med vårt intuitiva
-    gränssnitt och avancerade funktioner.
+    kakling Windows Manager för att förbättra din Windows -upplevelse! Utforska
+    en ny era av effektivitet och multitasking med vårt intuitiva gränssnitt och
+    avancerade funktioner.
 general:
   theme:
     add: Lägga till tema
@@ -55,6 +56,8 @@ toolbar:
   enable: Aktivera snyggt verktygsfält
   auto_hide: Auto Hide
   label: Verktygsfält
+  delay_to_show: Fördröjning att visa
+  delay_to_hide: Dröjsmål att gömma sig
 wm:
   border:
     width: Gränsbredd
@@ -83,6 +86,8 @@ weg:
   margin: Marginal
   enable: Aktivera bryggor/aktivitetsfält
   dock_side: Placera
+  delay_to_show: Fördröjning att visa
+  delay_to_hide: Dröjsmål att gömma sig
 devtools:
   install_folder: Installationsmapp
   load: Ladda
@@ -106,7 +111,6 @@ apps_configurations:
     bindings: Bindning (Observera att båda alternativen krävs)
     monitor_placeholder: Ingen
     title_create: Skapa {{name}}
-    title_edit: Redge {{name}}
     category_placeholder: Ingen
     ok_create: Skapa
     monitor: Övervaka
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Dock/Aktivitetsfältalternativ
     wm_options_label: Fönsterchefalternativ
     options_label: Extra alternativ
+    title_edit: Redigera {{name}}
   identifier:
     and: OCH
     remove: Radera block
@@ -228,9 +233,13 @@ monitors_configurations:
   label: Monitor {{index}}
 wall:
   no_background: Tomt bildspel, med temas bakgrund istället.
-  interval: Ändra tapeter varannan (sekunder)
-  enable: Aktivera Seelen Wall
   backgrounds: Tapeter
+  enable: Aktivera tapetchef
+  random: Slumpmässig bildspel
+  interval: Ändra tapeter varje
+  minutes: minuter
+  hours: timme
+  seconds: sekunder
 app_launcher:
   runners:
     cmd: Kommando
@@ -247,3 +256,8 @@ update:
   channel: Uppdateringskanal
   downloading: Nedladdning ...
 miscellaneous: Diverse
+mods:
+  target: Mål
+  widgets: Widget
+  plugins: Plugins
+remove: Ta bort

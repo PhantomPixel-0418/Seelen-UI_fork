@@ -14,6 +14,11 @@ network:
     password: Пароль
   disconnect: Отключить
   connect: Подключить
+  saved: Сохраненные сети
+  available: Доступные сети
+  connected: Подключено к
+  secured: Зашифрованная сеть
+  scanning: Сканирование сетей
 settings:
   title: Настройки
   app_settings: Настройки приложения
@@ -35,4 +40,7 @@ placeholder:
   notifications: Уведомления
 unlabelled_tray: Иконка трея без надписи
 context_menu:
-  remove: Удалить предмет
+  remove: Удалить модуль
+  add_module: Добавить модуль
+  task_manager: Диспетчер задач
+  settings: Настройки

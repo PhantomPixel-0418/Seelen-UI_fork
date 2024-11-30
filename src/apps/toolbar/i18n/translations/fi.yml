@@ -14,6 +14,11 @@ network:
   disconnect: Katkaista
   more: Lisää verkkoasetuksia
   hidden: Piilotettu verkko
+  available: Käytettävissä olevat verkot
+  saved: Tallennetut verkot
+  connected: 'Yhdistetty:'
+  secured: Salattu verkko
+  scanning: Etsii verkkoja
 settings:
   sleep: Nukkua
   log_out: Kirjautua ulos
@@ -35,4 +40,7 @@ placeholder:
   notifications: Ilmoitukset
 unlabelled_tray: Leimaton lokerokuvake
 context_menu:
-  remove: Poistaa kohde
+  add_module: Lisää moduuli
+  remove: Poista moduuli
+  task_manager: Tehtävienhallinta
+  settings: Asetukset

@@ -14,17 +14,18 @@ header:
     specific_apps: Specifikke apps
     shortcuts: Genveje
     monitors: Monitors
-    seelen_wall: Væggen
     seelen_rofi: App Launcher
     virtual_desk: Virtuelle desktops
     home: Hjem
+    mods: Plugins og widgets
+    seelen_wall: Tapet manager
 start:
   message_accent: Optimer din produktivitet med stil!
   title: Velkommen!
   message: >-
     Velkommen til Seelen UI, det ultimative desktopmiljø med en inkorporeret
-    Flising Windows Manager for at forbedre din Windows 11 -oplevelse! Udforsk
-    en ny æra med effektivitet og multitasking med vores intuitive interface og
+    Flising Windows Manager for at forbedre din Windows -oplevelse! Udforsk en
+    ny æra med effektivitet og multitasking med vores intuitive interface og
     avancerede funktioner.
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   height: Højde
   auto_hide: Auto skjul
   label: Værktøjslinje
+  delay_to_show: Forsinket fremvisning
+  delay_to_hide: Forsink med at skjule
 wm:
   border:
     width: Grænsebredde
@@ -83,6 +86,8 @@ weg:
   padding: Polstring
   label: Dock/proceslinje
   dock_side: Position
+  delay_to_hide: Forsink med at skjule
+  delay_to_show: Forsinket fremvisning
 devtools:
   enable: Aktivér udviklerværktøjer
   settings_file: Indstillinger fil
@@ -99,7 +104,6 @@ apps_configurations:
       pinned: Fastgjort
       unmanage: Uudvikling
       hidden: Skjul for dock/proceslinje
-    title_edit: Redigering {{navn}}
     monitor_placeholder: Ingen
     ok_edit: Opdatering
     workspace: Arbejdsområde
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: Vindueschefindstillinger
     weg_options_label: Dock/proceslinjemuligheder
     options_label: Ekstra muligheder
+    title_edit: Redigering {{navn}}
   identifier:
     id: Identifikator
     add_block: Tilføj blok
@@ -229,8 +234,12 @@ monitors_configurations:
 wall:
   backgrounds: Baggrunde
   no_background: Tom lysbilledshow ved hjælp af temas baggrund i stedet.
-  interval: Skift tapet hver (sekunder)
-  enable: Aktivér Seelen Wall
+  enable: Aktivér tapet manager
+  interval: Skift tapet hver
+  random: Randomiser slideshow
+  seconds: sekunder
+  hours: timer
+  minutes: minutter
 app_launcher:
   runners:
     cmd: Kommando
@@ -247,3 +256,8 @@ update:
   channel: Opdateringskanal
   downloading: Download ...
 miscellaneous: Diverse
+mods:
+  target: Mål
+  plugins: Plugins
+  widgets: Widgets
+remove: Fjerne

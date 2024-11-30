@@ -14,14 +14,15 @@ header:
     seelen_bar: Fancy የመሣሪያ አሞሌ
     monitors: ተቆጣጣሪዎች
     seelen_wm: የመስኮት አቀናባሪ
-    seelen_wall: ግድግዳው
     seelen_rofi: የመተግበሪያ አስጀማሪ
     virtual_desk: ምናባዊ ዴስክቶፕስ
     home: ቤት
+    mods: ተሰኪዎች እና መግብሮች
+    seelen_wall: የግድግዳ ወረቀት ሥራ አስኪያጅ
 start:
   title: እንኳን ደህና መጣህ!
   message: >-
-    የእርስዎን ዊንዶውስ 11 ተሞክሮ ለማሳደግ ከተዋሃደ ድንገተኛ የዊንዶውስ ሥራ አስኪያጅ ጋር ወደ ደመወዝ የዴስክቶፕ ሥራ
+    የእርስዎን ዊንዶውስ ተሞክሮ ለማሳደግ ከተዋሃደ ድንገተኛ የዊንዶውስ ሥራ አስኪያጅ ጋር ወደ ደመወዝ የዴስክቶፕ ሥራ
     አስኪያጅ እንኳን በደህና መጡ! አዲስ የብቃት እና የብዝበዛ ኢቫን እና ባለብዙ ፊደል እና የላቁ ባህሪያችን ጋር ይሳለቁ.
   message_accent: ምርታማነትዎን በቅጥ ያሻሽሉ!
 general:
@@ -53,6 +54,8 @@ toolbar:
   enable: Fangance የመሳሪያ አሞሌን ያንቁ
   auto_hide: ራስ-ሰር መደበቅ
   label: የመሣሪያ አሞሌ
+  delay_to_hide: ለመደበቅ መዘግየት
+  delay_to_show: ለማሳየት መዘግየት
 wm:
   border:
     width: ድንበር ስፋት
@@ -81,6 +84,8 @@ weg:
   gap: ክፍተት
   label: Dock / Accorbar
   dock_side: አቀማመጥ
+  delay_to_hide: ለመደበቅ መዘግየት
+  delay_to_show: ለማሳየት መዘግየት
 devtools:
   app_folders: የመተግበሪያ አቃፊዎች
   data_folder: የውሂብ አቃፊ
@@ -105,7 +110,6 @@ apps_configurations:
     workspace_placeholder: የለም
     ok_edit: ዝመና
     workspace: የስራ ቦታ
-    title_edit: አርትዕ {{{N}}}
     bindings: ማሰሪያ (ሁለቱንም አማራጮች ልብ ይበሉ)
     title_readonly: '{{{}}}}'
     title_create: '{{{ስም} መፍጠር}}'
@@ -114,6 +118,7 @@ apps_configurations:
     weg_options_label: የመርከሪያ / የተግባር አሞሌ አማራጮች
     wm_options_label: የመስኮት አቀናባሪ አማራጮች
     options_label: ተጨማሪ አማራጮች
+    title_edit: አርት editing {{ስም}}}
   identifier:
     remove: ብሎክ ሰርዝ
     and: እና
@@ -220,9 +225,13 @@ monitors_configurations:
   label: ይቆጣጠሩ {{አው.ፊ.}}}}
 wall:
   backgrounds: የግድግዳ ወረቀቶች
-  interval: የግድግዳ ወረቀት እያንዳንዱን (ሰከንዶች) ይለውጡ
   no_background: በመከራየት የፊት ገጽታውን ዳራ በመጠቀም ባዶ ተንሸራታች ትዕይንት.
-  enable: የጥንቃቄ ግድግዳ አንቃ
+  enable: የግድግዳ ወረቀት ሥራ አስኪያጅን ያንቁ
+  random: የዘፈቀደ ተንሸራታች ትዕይንት
+  interval: የግድግዳ ወረቀት እያንዳንዱን ይለውጡ
+  minutes: ደቂቃዎች
+  hours: ሰዓታት
+  seconds: ሰከንዶች
 app_launcher:
   runners:
     explorer: ሩጫ
@@ -239,3 +248,8 @@ update:
   downloading: ማውረድ ...
   channel: ጣቢያውን አዘምን
 miscellaneous: ልዩነቶች
+mods:
+  widgets: ፍርግሞች
+  plugins: ተሰኪዎች
+  target: Target ላማ
+remove: ያስወግዱ

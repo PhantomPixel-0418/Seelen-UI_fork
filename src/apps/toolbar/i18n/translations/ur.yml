@@ -14,6 +14,11 @@ network:
   not_found: کوئی نیٹ ورک نہیں ملا
   connect: کنیکٹ
   more: نیٹورک کی مزید معلومات
+  connected: سے جڑا ہوا ہے۔
+  secured: خفیہ کردہ نیٹ ورک
+  available: دستیاب نیٹ ورکس
+  saved: محفوظ کردہ نیٹ ورکس
+  scanning: نیٹ ورکس کے لیے سکیننگ
 settings:
   restart: ریسٹارٹ
   log_out: لاگ آوٹ
@@ -35,4 +40,7 @@ placeholder:
   notifications: اطلاعات
 unlabelled_tray: غیر لیبلڈ ٹرے آئیکن
 context_menu:
-  remove: آئٹم کو ہٹا دیں
+  add_module: ماڈیول شامل کریں
+  remove: ماڈیول کو ہٹا دیں
+  settings: ترتیبات
+  task_manager: ٹاسک مینیجر

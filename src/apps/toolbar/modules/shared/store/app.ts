@@ -8,10 +8,11 @@ import { StateBuilder } from '../../../../shared/StateBuilder';
 
 const initialState: RootState = {
   version: 0,
+  placeholder: null,
+  plugins: [],
   dateFormat: '',
   isOverlaped: false,
   focused: null,
-  placeholder: null,
   settings: new FancyToolbarSettings(),
   env: {},
   // default values of https://learn.microsoft.com/en-us/windows/win32/api/winbase/ns-winbase-system_power_status
@@ -62,12 +63,25 @@ export const RootSlice = createSlice({
         state.placeholder.right = action.payload;
       }
     },
+    addItem(state, action: PayloadAction<string>) {
+      if (!state.placeholder) {
+        return;
+      }
+      const alreadyExists =
+        state.placeholder.left.includes(action.payload) ||
+        state.placeholder.right.includes(action.payload) ||
+        state.placeholder.center.includes(action.payload);
+      if (!alreadyExists) {
+        state.placeholder.right.push(action.payload);
+      }
+    },
     removeItem(state, action: PayloadAction<string>) {
       let id = action.payload;
       if (state.placeholder) {
-        state.placeholder.left = state.placeholder.left.filter((d) => d.id !== id);
-        state.placeholder.center = state.placeholder.center.filter((d) => d.id !== id);
-        state.placeholder.right = state.placeholder.right.filter((d) => d.id !== id);
+        let filter = (d: any) => d !== id && d.id !== id;
+        state.placeholder.left = state.placeholder.left.filter(filter);
+        state.placeholder.center = state.placeholder.center.filter(filter);
+        state.placeholder.right = state.placeholder.right.filter(filter);
       }
     },
   },

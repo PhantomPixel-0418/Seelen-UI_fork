@@ -22,16 +22,17 @@ header:
     developer: Desenvolvedor
     info: Informação
     seelen_rofi: Lançador de aplicativos
-    seelen_wall: A parede
     virtual_desk: Desktops virtuais
     home: Início
+    mods: Plug-ins e widgets
+    seelen_wall: Gerente de papel de parede
 start:
   title: Bem-vindo!
   message: >-
     Bem-vindo ao Seelen UI, o melhor ambiente de área de trabalho com um
     gerenciador de janelas lado a lado incorporado para aprimorar sua
-    experiência com o Windows 11! Explore uma nova era de eficiência e
-    multitarefa com nossa interface intuitiva e recursos avançados.
+    experiência com o Windows! Explore uma nova era de eficiência e multitarefa
+    com nossa interface intuitiva e recursos avançados.
   message_accent: Otimize sua produtividade com estilo!
 general:
   startup: Executar ao iniciar?
@@ -62,6 +63,8 @@ toolbar:
   height: Altura
   auto_hide: Esconder automaticamente
   label: Barra de ferramentas
+  delay_to_show: Demora para mostrar
+  delay_to_hide: Demora para esconder
 wm:
   layout: Disposição
   author: Autor
@@ -90,6 +93,8 @@ weg:
     gap: Espaço entre itens
     visible_separators: Separadores Visíveis
   dock_side: Posição
+  delay_to_hide: Demora para esconder
+  delay_to_show: Demora para mostrar
 devtools:
   enable: Habilitar ferramentas para desenvolvedores
   app_folders: Pastas de aplicativos
@@ -121,7 +126,6 @@ apps_configurations:
     monitor_placeholder: Nenhum
     workspace: Área de trabalho
     workspace_placeholder: Nenhum
-    title_edit: Editando {{nome}}
     title_create: Criando {{nome}}
     title_readonly: Visualizando {{nome}}
     ok_edit: Atualizar
@@ -136,6 +140,7 @@ apps_configurations:
     weg_options_label: Opções de doca/barra de tarefas
     wm_options_label: Opções do gerenciador de janelas
     options_label: Opções extras
+    title_edit: Edição {{name}}
   identifier:
     remove: Excluir bloco
     id: Identificador
@@ -147,9 +152,9 @@ apps_configurations:
     add_block: Adicionar bloco
   extra_info: >-
     A interface do usuário da Seelen usa apenas um identificador por aplicativo
-    (primeira correspondência encontrada), então a ordem em que são especificados é
-    importante, o último adicionado será priorizado, pois note que a tabela é 
-    classificada por padrão do mais recente ao mais antigo.
+    (primeira correspondência encontrada), então a ordem em que são
+    especificados é importante, o último adicionado será priorizado, pois note
+    que a tabela é  classificada por padrão do mais recente ao mais antigo.
 extras:
   version: Versão
   links: Links Oficiais
@@ -226,9 +231,13 @@ monitors_configurations:
   label: Monitor {{index}}
 wall:
   backgrounds: Papéis de parede
-  interval: Mude o papel de parede a cada (segundos)
-  enable: Ativar parede de Seelen
   no_background: A apresentação de slides vazia, usando o plano de fundo do tema.
+  enable: Ativar gerente de papel de parede
+  interval: Troque o papel de parede todos
+  random: Randomize Slideshow
+  minutes: minutos
+  hours: horas
+  seconds: segundas
 app_launcher:
   runners:
     cmd: Comando
@@ -245,3 +254,8 @@ update:
   channel: Atualizar canal
   downloading: Download ...
 miscellaneous: Miscelânea
+mods:
+  target: Alvo
+  widgets: Widgets
+  plugins: Plugins
+remove: Remover

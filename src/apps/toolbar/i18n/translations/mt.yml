@@ -14,6 +14,11 @@ network:
   disconnect: Skonnettja
   hidden: Netwerk moħbi
   more: Aktar settings tan-netwerk
+  scanning: Skennjar għal netwerks
+  saved: Netwerks salvati
+  connected: Konnessi ma'
+  available: Netwerks disponibbli
+  secured: Netwerk kriptat
 settings:
   restart: Erġa ibda
   shutdown: Għalaq
@@ -35,4 +40,7 @@ placeholder:
   notifications: Notifiki
 unlabelled_tray: Ikona tat-trej mhux immarkata
 context_menu:
-  remove: Neħħi l-oġġett
+  add_module: Żid il-modulu
+  remove: Neħħi l-modulu
+  task_manager: Task Manager
+  settings: Settings

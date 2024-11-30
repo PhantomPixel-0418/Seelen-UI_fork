@@ -1,9 +1,10 @@
 taskbar_menu:
-  settings: Отворени настройки
   media: Добавете медиен модул
   start: Добавете старт модул
   add_file: ПИН Персонализиран файл
   add_folder: ПИН Персонализирана папка
+  settings: Настройки
+  task_manager: Диспечер на задачите
 app_menu:
   close: Близо
   close_multiple: Затвори всички
@@ -19,3 +20,5 @@ media_menu:
   remove: Премахване на медийния модул
 start_menu:
   remove: Премахване на стартовия модул
+media:
+  not_playing: Нищо не играе

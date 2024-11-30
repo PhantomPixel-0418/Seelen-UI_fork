@@ -15,15 +15,16 @@ header:
     seelen_bar: סרגל כלים מפואר
     monitors: צגים
     seelen_rofi: משגר אפליקציות
-    seelen_wall: הקיר
     virtual_desk: שולחנות עבודה וירטואליים
     home: בַּיִת
+    mods: תוספים ווידג'טים
+    seelen_wall: מנהל טפטים
 start:
   title: ברוך הבא!
   message: >-
     ברוך הבא ל- Seelen UI, סביבת שולחן העבודה האולטימטיבית עם מנהל Windows משולב
-    אריחים כדי לשפר את חווית Windows 11 שלך! חקור עידן חדש של יעילות ורב משימות
-    עם הממשק האינטואיטיבי והתכונות המתקדמות שלנו.
+    אריחים כדי לשפר את חווית Windows שלך! חקור עידן חדש של יעילות ורב משימות עם
+    הממשק האינטואיטיבי והתכונות המתקדמות שלנו.
   message_accent: אופטימיזציה של הפרודוקטיביות שלך עם סגנון!
 general:
   theme:
@@ -54,6 +55,8 @@ toolbar:
   enable: אפשר סרגל כלים מפואר
   auto_hide: הסתר אוטומטי
   label: סרגל כלים
+  delay_to_hide: עיכוב להסתיר
+  delay_to_show: עיכוב להצגה
 wm:
   border:
     offset: קיזוז גבול
@@ -82,6 +85,8 @@ weg:
   enable: הפעל את המזח/שורת המשימות
   padding: ריפוד
   dock_side: מַצָב
+  delay_to_hide: עיכוב להסתיר
+  delay_to_show: עיכוב להצגה
 devtools:
   load: לִטעוֹן
   install_folder: תיקיית התקנה
@@ -104,7 +109,6 @@ apps_configurations:
     ok_edit: עדכון
     bindings: כריכה (שימו לב לשתי האפשרויות נדרשות)
     category: קטגוריה
-    title_edit: עריכה {{name}}
     ok_readonly: ערוך כחדש
     monitor: צג
     ok_create: לִיצוֹר
@@ -115,6 +119,7 @@ apps_configurations:
     wm_options_label: אפשרויות מנהל חלונות
     weg_options_label: אפשרויות עגינה/שורת משימות
     options_label: אפשרויות נוספות
+    title_edit: עריכה {{name}}
   identifier:
     id: מזהה
     or: אוֹ
@@ -222,8 +227,12 @@ monitors_configurations:
 wall:
   backgrounds: טפטים
   no_background: מצגת שקופיות ריקה, באמצעות הרקע של הנושא במקום זאת.
-  interval: החלף טפטים כל (שניות)
-  enable: אפשר קיר Seelen
+  enable: אפשר מנהל טפטים
+  interval: החלף טפטים כל
+  random: מצגת שקופיות אקראית
+  minutes: פּרוֹטוֹקוֹל
+  hours: שעות
+  seconds: שניות
 app_launcher:
   runners:
     cmd: פְּקוּדָה
@@ -240,3 +249,8 @@ update:
   channel: ערוץ עדכון
   downloading: מוריד ...
 miscellaneous: שונות
+mods:
+  target: יַעַד
+  plugins: תוספים
+  widgets: ווידג'טים
+remove: לְהַסִיר

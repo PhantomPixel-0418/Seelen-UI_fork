@@ -15,14 +15,15 @@ header:
     seelen_weg: Dock/oppgavelinje
     monitors: Skjermer
     seelen_rofi: App Launcher
-    seelen_wall: Veggen
     virtual_desk: Virtuelle stasjonære maskiner
     home: Hjem
+    mods: Plugins og widgets
+    seelen_wall: Bakgrunnssjef
 start:
   title: Velkommen!
   message: >-
     Velkommen til Seelen UI, Ultimate Desktop Environment med en innlemmet
-    tilflising av Windows Manager for å forbedre Windows 11 -opplevelsen din!
+    tilflising av Windows Manager for å forbedre Windows -opplevelsen din!
     Utforsk en ny epoke med effektivitet og multitasking med vårt intuitive
     grensesnitt og avanserte funksjoner.
   message_accent: Optimaliser produktiviteten din med stil!
@@ -55,6 +56,8 @@ toolbar:
   enable: Aktiver fancy verktøylinje
   auto_hide: Auto Hide
   label: Verktøylinje
+  delay_to_hide: Utsett å skjule
+  delay_to_show: Forsinkelse med visning
 wm:
   border:
     enable: Aktiver vinduets grense
@@ -83,6 +86,8 @@ weg:
   label: Dock/oppgavelinje
   enable: Aktiver dock/oppgavelinje
   dock_side: Stilling
+  delay_to_show: Forsinkelse med visning
+  delay_to_hide: Utsett å skjule
 devtools:
   load: Laste
   custom_config_file: Last inn tilpasset konfigurasjonsfil
@@ -99,7 +104,6 @@ apps_configurations:
       pinned: Festet
       unmanage: Unmanage
       hidden: Gjemme deg for dock/oppgavelinje
-    title_edit: Redigering {{name}}
     category: Kategori
     title_create: Opprette {{name}}
     monitor_placeholder: Ingen
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: Vinduslederalternativer
     weg_options_label: Dock/oppgavelinjealternativer
     options_label: Ekstra alternativer
+    title_edit: Redigering {{name}}
   identifier:
     and: OG
     kind: Identifisere av
@@ -228,9 +233,13 @@ monitors_configurations:
   label: Overvåke {{indeks}}
 wall:
   backgrounds: Bakgrunnsbilder
-  enable: Aktiver Seelen Wall
   no_background: Tom lysbildefremvisning, ved å bruke temaets bakgrunn i stedet.
-  interval: Endre bakgrunnsbilder hver (sekunder)
+  enable: Aktiver bakgrunnssjef
+  random: Randomiser lysbildefremvisning
+  interval: Endre bakgrunnsbilde hver
+  minutes: minutter
+  seconds: sekunder
+  hours: timer
 app_launcher:
   runners:
     cmd: Kommando
@@ -247,3 +256,8 @@ update:
   downloading: Last ned ...
   channel: Oppdateringskanal
 miscellaneous: Diverse
+mods:
+  target: Mål
+  widgets: Widgets
+  plugins: Plugins
+remove: Fjerne

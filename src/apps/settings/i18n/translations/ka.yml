@@ -15,15 +15,16 @@ header:
     seelen_wm: ფანჯრის მენეჯერი
     specific_apps: კონკრეტული პროგრამები
     seelen_rofi: აპლიკაციის გამშვები
-    seelen_wall: კედელი
     virtual_desk: ვირტუალური სამუშაო მაგიდა
     home: სახლი
+    mods: დანამატები და ვიჯეტები
+    seelen_wall: ფონი მენეჯერი
 start:
   message_accent: თქვენი პროდუქტიულობის ოპტიმიზაცია სტილით!
   title: კეთილი იყოს თქვენი მობრძანება!
   message: >-
     კეთილი იყოს თქვენი მობრძანება Seelen UI- ში, საბოლოო დესკტოპის გარემოში,
-    რომელშიც შედის Windows Windows- ის მენეჯერი, თქვენი Windows 11 გამოცდილების
+    რომელშიც შედის Windows Windows- ის მენეჯერი, თქვენი Windows გამოცდილების
     გასაუმჯობესებლად! გამოიკვლიეთ ეფექტურობისა და მრავალმხრივი ახალი ეპოქა ჩვენი
     ინტუიციური ინტერფეისით და მოწინავე მახასიათებლებით.
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: ჩართეთ ლამაზი პანელი
   auto_hide: ავტო დამალვა
   label: ინსტრუმენტთა პანელი
+  delay_to_hide: დაგვიანებით დამალვა
+  delay_to_show: დაგვიანებით ჩვენება
 wm:
   border:
     enable: ფანჯრის საზღვრის ჩართვა
@@ -83,6 +86,8 @@ weg:
   gap: ხარპი
   enable: ჩართეთ dock/taskbar
   dock_side: პოზიცია
+  delay_to_hide: დაგვიანებით დამალვა
+  delay_to_show: დაგვიანებით ჩვენება
 devtools:
   enable: ჩართეთ დეველოპერის ინსტრუმენტები
   app_folders: აპლიკაციის საქაღალდეები
@@ -105,7 +110,6 @@ apps_configurations:
     category_placeholder: არაფერი
     workspace_placeholder: არაფერი
     ok_edit: განახლება
-    title_edit: რედაქტირება {{სახელი}}
     workspace: სამუშაო ადგილი
     ok_readonly: რედაქტირება როგორც ახალი
     title_create: '{{სახელის შექმნა}}'
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: დოკ/დავალების პანელის პარამეტრები
     wm_options_label: ფანჯრის მენეჯერის პარამეტრები
     options_label: დამატებითი პარამეტრები
+    title_edit: რედაქტირება {{სახელი}}
   identifier:
     and: და
     id: პირადობა
@@ -229,8 +234,12 @@ monitors_configurations:
 wall:
   no_background: ცარიელი სლაიდშოუ, სამაგიეროდ თემის ფონის გამოყენებით.
   backgrounds: ფონები
-  enable: ჩართეთ seelen კედელი
-  interval: ფონი შეცვალეთ ყოველ (წამში)
+  enable: ჩართეთ ფონი მენეჯერი
+  interval: შეცვალეთ ფონი ყველა
+  random: რანდომიზაცია სლაიდშოუ
+  minutes: წუთი
+  seconds: წამები
+  hours: საათი
 app_launcher:
   runners:
     cmd: ბრძანება
@@ -247,3 +256,8 @@ update:
   downloading: ჩამოტვირთვა ...
   channel: განაახლეთ არხი
 miscellaneous: შერეული
+mods:
+  plugins: ამხებო
+  widgets: ვიჯეტები
+  target: სამიზნე
+remove: ამოღება

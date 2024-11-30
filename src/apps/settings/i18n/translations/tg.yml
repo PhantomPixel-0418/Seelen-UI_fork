@@ -14,16 +14,17 @@ header:
     developer: Таҳиякунанда
     seelen_bar: Панели футбол
     info: Ахбор
-    seelen_wall: Девор
     seelen_rofi: Барномасоз
     virtual_desk: Мизи кории виртуалӣ
     home: Хона
+    mods: Плагинҳо ва виджетҳо
+    seelen_wall: Обои Менеҷери
 start:
   message_accent: Ҳосилнокии худро бо услуб оптимед кунед!
   message: >-
     Хуш омадед ба Селен ui, муҳити ниҳооии мизи корӣ бо намоиши менеҷери TIS
-    Windows Manage 11 таҷрибаи Windows 11 Windows 11! Давраи нави самаранокиро
-    кашф кунед ва бисёрҷанбаҳо бо интерфейси амиқии мо ва хусусиятҳои пешрафта.
+    Windows Manage таҷрибаи Windows Windows! Давраи нави самаранокиро кашф кунед
+    ва бисёрҷанбаҳо бо интерфейси амиқии мо ва хусусиятҳои пешрафта.
   title: Хуш омадед!
 general:
   theme:
@@ -54,6 +55,8 @@ toolbar:
   enable: Дастрас кардани панели футболи
   auto_hide: Худкор Пинҳон кардани
   label: Асбобу
+  delay_to_show: Таъхир барои нишон додан
+  delay_to_hide: Таъхир барои пинҳон кардан
 wm:
   border:
     width: Паҳнои сарҳад
@@ -82,6 +85,8 @@ weg:
   gap: Фосила
   margin: Маржа
   dock_side: Вазъият
+  delay_to_hide: Таъхир барои пинҳон кардан
+  delay_to_show: Таъхир барои нишон додан
 devtools:
   custom_config_file: Файли танзимоти танзими фармоишӣ
   load: Сарборӣ
@@ -101,7 +106,6 @@ apps_configurations:
     monitor_placeholder: Ҳеь
     monitor: Назорат
     category: Категория
-    title_edit: Таҳрири {{НОМ}}
     workspace_placeholder: Ҳеь
     ok_create: Сохтан
     title_readonly: Дидани {{НОМ}}
@@ -115,6 +119,7 @@ apps_configurations:
     weg_options_label: Параметрҳои Dock / Pitibar
     wm_options_label: Имконоти мудири равзана
     options_label: Имконоти иловагӣ
+    title_edit: Таҳрир {{НОМ}}
   identifier:
     or: Ё
     kind: Муайян мекунад
@@ -222,10 +227,14 @@ save_and_restart: Наҷот ва бозоғоз
 monitors_configurations:
   label: Монитор {Индекс}}
 wall:
-  enable: Фаъолсозии девори Selece
-  interval: Девори ҳар (сония) -ро иваз кунед
   backgrounds: Обои обу
   no_background: Слайдҳои холӣ, бо истифодаи заминаи мавзӯъҳо.
+  enable: Фаъолсозии менеҷери обои
+  interval: Тағйироти ҳар як
+  random: Велосипедро тасодуфан
+  seconds: сонияҳо
+  minutes: дақиқа
+  hours: соат
 app_launcher:
   runners:
     label: Давандагон
@@ -242,3 +251,8 @@ update:
   channel: Навсозӣ канал
   downloading: Зеркашӣ кунед ...
 miscellaneous: Дигар
+mods:
+  plugins: Плагинҳо
+  widgets: Виджетҳо
+  target: Мащсад
+remove: Дур кардан

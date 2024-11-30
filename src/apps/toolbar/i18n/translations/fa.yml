@@ -14,6 +14,11 @@ network:
   hidden: شبکه پنهان
   more: تنظیمات بیشتر شبکه
   not_found: هیچ شبکه ای پیدا نشده است
+  available: شبکه های موجود
+  saved: شبکه های ذخیره شده
+  connected: متصل به
+  scanning: اسکن شبکه ها
+  secured: شبکه رمزگذاری شده
 settings:
   app_settings: تنظیمات برنامه
   restart: مجدداً
@@ -35,4 +40,7 @@ placeholder:
   notifications: اطلاعیه
 unlabelled_tray: نماد سینی بدون نام
 context_menu:
-  remove: حذف مورد
+  add_module: ماژول را اضافه کنید
+  remove: ماژول را حذف کنید
+  task_manager: Task Manager
+  settings: تنظیمات

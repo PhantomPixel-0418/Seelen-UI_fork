@@ -1,5 +1,8 @@
 context_menu:
-  remove: Remove Item
+  remove: Remove Module
+  add_module: Add Module
+  task_manager: Task Manager
+  settings: Settings
 media:
   master_volume: Master Volume
   output_device: Output device
@@ -9,7 +12,12 @@ media:
     multimedia: Multimedia
     comunications: Communications
 network:
-  not_found: No networks found
+  connected: Connected to
+  saved: Saved networks
+  available: Available networks
+  not_found: No Wi-Fi networks found
+  secured: Encrypted network
+  scanning: Scanning for networks
   more: More Network Settings
   hidden: Hidden Network
   placeholder:

@@ -14,16 +14,17 @@ header:
     developer: Natblygwr
     seelen_weg: Doc/bar tasgau
     seelen_bar: Bar offer ffansi
-    seelen_wall: Y wal
     seelen_rofi: Lansiwr ap
     virtual_desk: Penbyrddau Rhithwir
     home: Nghartrefi
+    mods: Ategion & Widgets
+    seelen_wall: Rheolwr papur wal
 start:
   message_accent: Optimeiddio'ch cynhyrchiant gydag arddull!
   title: Croeso!
   message: >-
     Croeso i Seelen UI, yr amgylchedd bwrdd gwaith yn y pen draw gyda rheolwr
-    ffenestri teils corfforedig i wella'ch profiad Windows 11! Archwiliwch oes
+    ffenestri teils corfforedig i wella'ch profiad Windows! Archwiliwch oes
     newydd o effeithlonrwydd ac amldasgio gyda'n rhyngwyneb greddfol a'n
     nodweddion uwch.
 general:
@@ -55,6 +56,8 @@ toolbar:
   height: Uchder
   auto_hide: Cuddio awto
   label: Bariau
+  delay_to_show: Oedi i ddangos
+  delay_to_hide: Oedi i guddio
 wm:
   border:
     width: Lled
@@ -83,6 +86,8 @@ weg:
   margin: Ngherlong
   gap: Bwlch
   dock_side: Safle
+  delay_to_show: Oedi i ddangos
+  delay_to_hide: Oedi i guddio
 devtools:
   data_folder: Ffolder data
   custom_config_file: Llwythwch ffeil ffurfweddu arfer
@@ -111,11 +116,11 @@ apps_configurations:
     title_readonly: Gweld {{enw}}
     ok_edit: Diweddara ’
     category_placeholder: Neb
-    title_edit: Golygu {{enw}}
     ok_create: Chrëid
     weg_options_label: Opsiynau doc/bar tasgau
     wm_options_label: Opsiynau Rheolwr Ffenestr
     options_label: Opsiynau ychwanegol
+    title_edit: Golygu {{enw}}
   identifier:
     matching_strategy: Strategaeth gyfatebol
     id: Dynodwr
@@ -227,10 +232,14 @@ save_and_restart: Cadw ac Ailgychwyn
 monitors_configurations:
   label: Monitro {{mynegai}}
 wall:
-  enable: Galluogi Wal Seelen
   no_background: Sioe sleidiau gwag, gan ddefnyddio cefndir thema yn lle.
-  interval: Newid papur wal bob (eiliad)
   backgrounds: Papurau Wal
+  enable: Galluogi Rheolwr Papur Wal
+  interval: Newid papur wal bob
+  random: Sioe sleidiau ar hap
+  minutes: munudau
+  seconds: eiliadau
+  hours: oriau
 app_launcher:
   runners:
     label: Rhedwyr
@@ -247,3 +256,8 @@ update:
   downloading: Lawrlwytho ...
   channel: Diweddaru Sianel
 miscellaneous: Hamddenol
+mods:
+  widgets: Widgets
+  plugins: Ategion
+  target: Targedon
+remove: Godon

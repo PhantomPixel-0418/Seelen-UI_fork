@@ -1,9 +1,10 @@
 taskbar_menu:
-  settings: Ayarları Aç
   media: Medya Modülü Ekle
   start: Başlat Modülü Ekle
   add_file: Özel Dosya Sabitle
   add_folder: Özel Klasör Sabitle
+  task_manager: Görev Yöneticisi
+  settings: Ayarlar
 app_menu:
   open_file_location: Dosya Konumunu Aç
   run_as: Yönetici Olarak Çalıştır
@@ -19,3 +20,5 @@ media_menu:
   remove: Medya Modülünü Kaldır
 start_menu:
   remove: Başlat Modülünü Kaldır
+media:
+  not_playing: Hiçbir şey oynamıyor

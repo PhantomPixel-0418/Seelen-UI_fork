@@ -14,16 +14,17 @@ header:
     specific_apps: Belirli Uygulamalar
     monitors: Monitörler
     shortcuts: Kısayollar
-    seelen_wall: Seelen Duvar
     seelen_rofi: Uygulama Başlatıcısı
     virtual_desk: Sanal Masaüstleri
     home: Ana Sayfa
+    mods: Eklentiler ve Widget'lar
+    seelen_wall: Duvar Kağıdı Yöneticisi
 start:
   title: Hoş Geldiniz!
   message_accent: Verimliliğinizi stil ile optimize edin!
   message: >-
-    Seelen UI'a hoş geldiniz, Windows 11 deneyiminizi geliştirmek için entegre
-    bir döşeme pencere yöneticisi ile en iyi masaüstü ortamı! Kullanıcı dostu
+    Seelen UI'a hoş geldiniz, Windows deneyiminizi geliştirmek için entegre bir
+    döşeme pencere yöneticisi ile en iyi masaüstü ortamı! Kullanıcı dostu
     arayüzümüz ve gelişmiş özelliklerimizle verimlilik ve çoklu görevlerde yeni
     bir çağı keşfedin.
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: Şık Araç Çubuğunu Etkinleştir
   auto_hide: Otomatik Gizle
   label: Araç Çubuğu
+  delay_to_hide: Gizlenmeyi geciktir
+  delay_to_show: Gösterme gecikmesi
 wm:
   border:
     width: Kenar Genişliği
@@ -83,6 +86,8 @@ weg:
   enable: Dock/Görev Çubuğunu Etkinleştir
   label: Dock/Görev Çubuğu
   dock_side: Konum
+  delay_to_hide: Gizlenmeyi geciktir
+  delay_to_show: Gösterme gecikmesi
 devtools:
   custom_config_file: Özel Yapılandırma Dosyası Yükle
   settings_file: Ayarlar Dosyası
@@ -112,10 +117,10 @@ apps_configurations:
     workspace: Çalışma Alanı
     workspace_placeholder: Yok
     ok_readonly: Yeni Olarak Düzenle
-    title_edit: '{{name}} Düzenleniyor'
     wm_options_label: Pencere Yöneticisi Seçenekleri
     weg_options_label: Dock/Görev Çubuğu Seçenekleri
     options_label: Ekstra Seçenekler
+    title_edit: Düzenleme {{name}}
   identifier:
     and: VE
     matching_strategy: Eşleştirme Stratejisi
@@ -227,8 +232,12 @@ monitors_configurations:
 wall:
   no_background: Boş slayt gösterisi, tema arka planı kullanılıyor.
   backgrounds: Duvar Kağıtları
-  interval: Duvar Kağıdını Her Saniye Değiştir
-  enable: Seelen Duvar'ı Etkinleştir
+  enable: Duvar Kağıdı Yöneticisini Etkinleştir
+  interval: Duvar kağıdını her şeyi değiştir
+  random: Slayt gösterisini rastgele
+  minutes: dakikalar
+  seconds: saniye
+  hours: saat
 app_launcher:
   runners:
     cmd: Komut İstemi
@@ -245,3 +254,8 @@ update:
   downloading: İndirme ...
   channel: Güncelleme kanalı
 miscellaneous: Çeşitli
+mods:
+  target: Hedef
+  widgets: Widget'lar
+  plugins: Eklentiler
+remove: Kaldırmak

@@ -15,15 +15,16 @@ header:
     monitors: Монитори
     specific_apps: Специфични апликации
     seelen_rofi: Апликатор за лансирање
-    seelen_wall: Theидот
     virtual_desk: Виртуелни работна површина
     home: Дома
+    mods: Приклучоци и додатоци
+    seelen_wall: Менаџер за позадина
 start:
   title: Добредојдовте!
   message_accent: Оптимизирајте ја вашата продуктивност со стил!
   message: >-
     Добредојдовте во Seelen UI, крајната околина за десктоп со вграден менаџер
-    за прозорци за Windows за подобрување на вашето искуство со Windows 11!
+    за прозорци за Windows за подобрување на вашето искуство со Windows!
     Истражете нова ера на ефикасност и мултитаскинг со нашиот интуитивен
     интерфејс и напредни карактеристики.
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: Овозможете фенси лента со алатки
   auto_hide: Автоматско скриј
   label: Лента со алатки
+  delay_to_hide: Одложување за сокривање
+  delay_to_show: Одложување за прикажување
 wm:
   border:
     width: Ширина на границата
@@ -83,6 +86,8 @@ weg:
   padding: Подлога
   label: Док/лента со задачи
   dock_side: Позиција
+  delay_to_hide: Одложување за сокривање
+  delay_to_show: Одложување за прикажување
 devtools:
   load: Оптоварување
   custom_config_file: Вчитајте ја датотеката за прилагодена конфигурација
@@ -99,7 +104,6 @@ apps_configurations:
       pinned: Закачен
       force: Управување со сила
       hidden: Скриј од пристаништето/лентата со задачи
-    title_edit: Уредување {{име}}
     ok_edit: Ажурирање
     category_placeholder: Ништо
     name: Име
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: Опции за управување со прозорецот
     weg_options_label: Опции на пристаништето/лентата со задачи
     options_label: Дополнителни опции
+    title_edit: Уредување {{име}}
   identifier:
     remove: Избриши блок
     matching_strategy: Стратегија за појавување
@@ -228,9 +233,13 @@ monitors_configurations:
   label: Монитор {{индекс}}
 wall:
   backgrounds: Позадини
-  interval: Променете ја позадината на секои (секунди)
-  enable: Овозможете го Селен Вол
   no_background: Празен слајдшоу, наместо тоа, користејќи ја позадината на темата.
+  enable: Овозможете менаџер на тапети
+  random: Рандомизирајте го слајдшоу
+  interval: Променете ја позадината на секој
+  seconds: секунди
+  hours: часови
+  minutes: минути
 app_launcher:
   runners:
     explorer: Трчај
@@ -247,3 +256,8 @@ update:
   downloading: Преземање ...
   channel: Ажурирање на каналот
 miscellaneous: Различни
+mods:
+  plugins: Приклучоци
+  widgets: Додатоци
+  target: Цел
+remove: Отстранете

@@ -14,6 +14,11 @@ network:
   not_found: કોઈ નેટવર્ક મળ્યાં નથી
   hidden: છુપાયેલું નેટવર્ક
   more: વધુ નેટવર્ક સેટિંગ્સ
+  connected: સાથે જોડાયેલ છે
+  secured: એન્ક્રિપ્ટેડ નેટવર્ક
+  available: ઉપલબ્ધ નેટવર્ક્સ
+  saved: સાચવેલા નેટવર્ક્સ
+  scanning: નેટવર્ક્સ માટે સ્કેનિંગ
 settings:
   restart: પુનઃપ્રારંભ
   sleep: ઊંઘ
@@ -35,4 +40,7 @@ placeholder:
   notifications: સૂચના
 unlabelled_tray: અનન્ય ટ્રે ચિહ્ન
 context_menu:
-  remove: વસ્તુ દૂર કરો
+  remove: મોડ્યુલ દૂર કરો
+  add_module: મોડ્યુલ ઉમેરો
+  task_manager: ટાસ્ક મેનેજર
+  settings: સેટિંગ્સ

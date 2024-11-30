@@ -14,6 +14,11 @@ network:
   hidden: Gizli şəbəkə
   disconnect: Ayırd etmək
   connect: Qoşulmaq
+  secured: Şifrələnmiş şəbəkə
+  connected: qoşuldu
+  saved: Saxlanan şəbəkələr
+  scanning: Şəbəkələrin skan edilməsi
+  available: Mövcud şəbəkələr
 settings:
   shutdown: Söndür
   restart: Yenidən başlamaq
@@ -35,4 +40,7 @@ placeholder:
   notifications: Bildirişlər
 unlabelled_tray: Qeyri-çapsız tepsik nişanı
 context_menu:
-  remove: Elementləri çıxarın
+  add_module: Modul əlavə edin
+  remove: Modulu çıxarın
+  task_manager: Tapşırıq meneceri
+  settings: Parametrlər

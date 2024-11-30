@@ -14,6 +14,11 @@ network:
   disconnect: Ngắt kết nối
   connect: Kết nối
   more: Nhiều cài đặt mạng hơn
+  connected: Đã kết nối với
+  saved: Mạng đã lưu
+  available: Mạng có sẵn
+  secured: Mạng được mã hóa
+  scanning: Đang quét mạng
 settings:
   sleep: Ngủ
   log_out: Đăng xuất
@@ -35,4 +40,7 @@ placeholder:
   notifications: Thông báo
 unlabelled_tray: Biểu tượng khay không ghi nhãn
 context_menu:
-  remove: Xóa vật phẩm
+  add_module: Thêm mô -đun
+  remove: Xóa mô -đun
+  task_manager: Trình quản lý tác vụ
+  settings: Cài đặt

@@ -14,14 +14,15 @@ header:
     general: Jeneral
     seelen_weg: Dock / ataza barra
     seelen_bar: Fancy tresna barra
-    seelen_wall: Horma
     seelen_rofi: App Launcher
     virtual_desk: Mahaigain birtualak
     home: Etxe
+    mods: Pluginak eta widgetak
+    seelen_wall: Wallpaper Manager
 start:
   message: >-
     Ongi etorri Seelen UI-ra, azken mahaigaineko ingurunea, fitxategien leiho
-    kudeatzailearekin txertatu zure Windows 11 esperientzia hobetzeko! Arakatu
+    kudeatzailearekin txertatu zure Windows esperientzia hobetzeko! Arakatu
     eraginkortasunaren eta multiataza aro berria gure interfaze intuitiboarekin
     eta ezaugarri aurreratuekin.
   title: Ongi etorri!
@@ -55,6 +56,8 @@ toolbar:
   height: Luzera
   auto_hide: Ezkutatu automatikoa
   label: Tresna barra
+  delay_to_hide: Ezkutatzeko atzeratu
+  delay_to_show: Erakusteko atzerapena
 wm:
   border:
     width: Ertzaren zabalera
@@ -83,6 +86,8 @@ weg:
   label: Dock / ataza barra
   padding: Betegarri
   dock_side: Kokaleku
+  delay_to_hide: Ezkutatzeko atzeratu
+  delay_to_show: Erakusteko atzerapena
 devtools:
   enable: Gaitu garatzaileen tresnak
   load: Zamatu
@@ -112,10 +117,10 @@ apps_configurations:
     workspace: Laneko espazioa
     name: Izen
     ok_create: Sortu
-    title_edit: '{{Name}} editatzea'
     weg_options_label: Dock / ataza barrako aukerak
     wm_options_label: Leiho kudeatzailearen aukerak
     options_label: Aukera gehigarriak
+    title_edit: '{{Name}} edizioa'
   identifier:
     add_block: Gehitu blokea
     kind: Identifikatu
@@ -225,10 +230,14 @@ save_and_restart: Gorde eta berrabiarazi
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  enable: Gaitu Seelen horma
-  interval: Aldatu horma-irudia (segundo)
   backgrounds: Horma-irudiak
   no_background: Aurkezpen hutsak, gaiaren atzeko planoa erabiliz.
+  enable: Gaitu horma-kudeatzailea
+  interval: Aldatu horma-irudia guztietan
+  random: Aurkezpen diaporama
+  seconds: bizkarbete
+  hours: ordire ordu
+  minutes: minutuak
 app_launcher:
   runners:
     label: Kornollari
@@ -245,3 +254,8 @@ update:
   downloading: Deskargatzen ...
   channel: Eguneratu kanala
 miscellaneous: Heterogeneo
+mods:
+  target: Jomuga
+  widgets: Widgets
+  plugins: Plakins
+remove: Atera

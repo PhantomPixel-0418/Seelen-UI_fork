@@ -15,15 +15,16 @@ header:
     shortcuts: شارٹ کٹ
     monitors: مانیٹر
     seelen_rofi: ایپ لانچر
-    seelen_wall: دیوار
     virtual_desk: ورچوئل ڈیسک ٹاپس
     home: گھر
+    mods: پلگ انز اور وجیٹس
+    seelen_wall: وال پیپر منیجر
 start:
   title: عنوان
   message_accent: اپنی صلاحیت کو انداز کے ساتھ بہتر بنائیں!
   message: >-
-    آپ کے ونڈوز 11 کے تجربے کو بڑھانے کے لئے شامل ٹائلنگ ونڈوز مینیجر کے ساتھ
-    حتمی ڈیسک ٹاپ ماحول ، سیلین UI میں خوش آمدید! ہمارے بدیہی انٹرفیس اور جدید
+    آپ کے ونڈوز کے تجربے کو بڑھانے کے لئے شامل ٹائلنگ ونڈوز مینیجر کے ساتھ حتمی
+    ڈیسک ٹاپ ماحول ، سیلین UI میں خوش آمدید! ہمارے بدیہی انٹرفیس اور جدید
     خصوصیات کے ساتھ کارکردگی اور ملٹی ٹاسکنگ کے ایک نئے دور کو دریافت کریں۔
 general:
   theme:
@@ -54,6 +55,8 @@ toolbar:
   height: اونچائی
   auto_hide: آٹو چھپائیں
   label: ٹول بار
+  delay_to_hide: چھپانے میں تاخیر
+  delay_to_show: دکھانے میں تاخیر
 wm:
   border:
     enable: ونڈو کی بارڈر کو فعال کریں
@@ -82,6 +85,8 @@ weg:
   enable: ٹاسک بار کو فعال کریں
   label: ٹاسک بار
   dock_side: پوزیشن
+  delay_to_hide: چھپانے میں تاخیر
+  delay_to_show: دکھانے میں تاخیر
 devtools:
   custom_config_file: کسٹم کنفیگ فائل لوڈ کریں
   data_folder: ڈیٹا فولڈر
@@ -109,12 +114,12 @@ apps_configurations:
     category_placeholder: کوئی نہیں
     monitor: مانیٹر
     name: نام
-    title_edit: ترمیم {{نام}}
     workspace_placeholder: کوئی نہیں
     title_create: '{{نام}} بنانا'
     wm_options_label: ونڈو مینیجر کے اختیارات
     weg_options_label: گودی/ٹاسک بار کے اختیارات
     options_label: اضافی اختیارات
+    title_edit: ترمیم {{نام}}
   identifier:
     and: اور
     remove: بلاک کو حذف کریں
@@ -224,10 +229,14 @@ save_and_restart: محفوظ کریں اور دوبارہ شروع کریں
 monitors_configurations:
   label: مانیٹر {{انڈیکس}}
 wall:
-  enable: سیلن وال کو فعال کریں
   no_background: اس کے بجائے تھیم کے پس منظر کا استعمال کرتے ہوئے ، خالی سلائیڈ شو۔
-  interval: وال پیپر ہر (سیکنڈ) تبدیل کریں
   backgrounds: وال پیپر
+  enable: وال پیپر مینیجر کو فعال کریں
+  random: سلائیڈ شو کو بے ترتیب بنائیں
+  interval: ہر ایک وال پیپر کو تبدیل کریں
+  hours: گھنٹے
+  minutes: منٹ
+  seconds: سیکنڈ
 app_launcher:
   runners:
     cmd: حکم
@@ -244,3 +253,8 @@ update:
   channel: چینل کو اپ ڈیٹ کریں
   downloading: ڈاؤن لوڈ کرنا ...
 miscellaneous: متفرق
+mods:
+  plugins: پلگ ان
+  widgets: ویجٹ
+  target: ہدف
+remove: ہٹا دیں

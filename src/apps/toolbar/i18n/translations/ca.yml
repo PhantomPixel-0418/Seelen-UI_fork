@@ -14,6 +14,11 @@ network:
   connect: Conectar
   disconnect: Desconectar
   hidden: Xarxa oculta
+  connected: Connectat a
+  available: Xarxes disponibles
+  saved: Xarxes guardades
+  secured: Xarxa xifrada
+  scanning: Escaneig de xarxes
 settings:
   app_settings: Configuració de l'aplicació
   title: Configuració
@@ -35,4 +40,7 @@ placeholder:
   notifications: Notificacions
 unlabelled_tray: Icona de la safata no etiquetada
 context_menu:
-  remove: Eliminar l'element
+  add_module: Afegiu el mòdul
+  remove: Elimina el mòdul
+  settings: Configuració
+  task_manager: Gestor de tasques

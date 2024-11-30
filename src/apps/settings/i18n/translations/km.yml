@@ -14,17 +14,18 @@ header:
     seelen_weg: ចត/របារភារកិច្ច
     seelen_bar: របារឧបករណ៍ពុម្ពអក្សរក្បូរក្បាច់
     specific_apps: កម្មវិធីជាក់លាក់
-    seelen_wall: ជញ្ជាំង
     seelen_rofi: កម្មវិធីបើកដំណើរការកម្មវិធី
     virtual_desk: ផ្ទៃតុនិម្មិត
     home: ផ្ទហ
+    mods: កម្មវិធីជំនួយ និងធាតុក្រាហ្វិក
+    seelen_wall: កម្មវិធីគ្រប់គ្រងផ្ទាំងរូបភាព
 start:
   title: សូមស្វាគមន៍!
   message_accent: បង្កើនផលិតភាពរបស់អ្នកជាមួយនឹងរចនាប័ទ្ម!
   message: >-
     សូមស្វាគមន៍មកកាន់ Seelen UI
     ដែលជាបរិស្ថានផ្ទៃតុចុងក្រោយដែលមានកម្មវិធីគ្រប់គ្រងបង្អួចដាក់បញ្ចូល
-    ដើម្បីបង្កើនបទពិសោធន៍ Windows 11 របស់អ្នក! ស្វែងរកយុគសម័យថ្មីនៃប្រសិទ្ធភាព
+    ដើម្បីបង្កើនបទពិសោធន៍ Windows របស់អ្នក! ស្វែងរកយុគសម័យថ្មីនៃប្រសិទ្ធភាព
     និងកិច្ចការច្រើនជាមួយនឹងចំណុចប្រទាក់វិចារណញាណរបស់យើង និងមុខងារកម្រិតខ្ពស់។
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   enable: បើករបារឧបករណ៍ពុម្ពអក្សរក្បូរក្បាច់
   auto_hide: លាក់ដោយស្វ័យប្រវត្តិ
   label: របាររបន៍របយ័ត្ន។ រប
+  delay_to_show: ពន្យាពេលក្នុងការបង្ហាញ
+  delay_to_hide: ពន្យារពេលដើម្បីលាក់
 wm:
   border:
     enable: បើកស៊ុមបង្អួច
@@ -83,6 +86,8 @@ weg:
   margin: រឹម
   enable: បើកដំណើរការ Dock/Taskbar
   dock_side: តីតាមង
+  delay_to_hide: ពន្យារពេលដើម្បីលាក់
+  delay_to_show: ពន្យាពេលក្នុងការបង្ហាញ
 devtools:
   install_folder: ថតឯកសារដំឡើង
   enable: បើកឧបករណ៍អ្នកអភិវឌ្ឍន៍
@@ -107,7 +112,6 @@ apps_configurations:
     name: ឈ្មោះ
     title_create: ការបង្កើត {{name}}
     title_readonly: កំពុងមើល {{name}}
-    title_edit: ការកែសម្រួល {{name}}
     ok_edit: ធ្វើបច្ចុប្បន្នភាព
     monitor: ម៉ូនីទ័រ
     ok_create: បង្កើត
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: ជម្រើសចត / ភារកិច្ច
     wm_options_label: ជម្រើសកម្មវិធីគ្រប់គ្រងបង្អួច
     options_label: ជម្រើសបន្ថែម
+    title_edit: ការកែសម្រួល {{ឈ្មោះ}}
   identifier:
     and: និង
     remove: លុបប្លុក
@@ -222,10 +227,14 @@ save_and_restart: រក្សាទុក & ចាប់ផ្តើមឡើ�
 monitors_configurations:
   label: ម៉ូនីទ័រ {{សន្ទស្សន៍}}
 wall:
-  enable: បើកជញ្ជាំង Seelen
   backgrounds: ផាបផេច
   no_background: ការបញ្ចាំងស្លាយទទេដោយប្រើផ្ទៃខាងក្រោយរបស់ស្បែកជំនួសវិញ។
-  interval: ផ្លាស់ប្តូរផ្ទាំងរូបភាពរាល់វិនាទី (វិនាទី)
+  enable: បើកដំណើរការកម្មវិធីគ្រប់គ្រងផ្ទាំងរូបភាព
+  interval: ផ្លាស់ប្តូរផ្ទាំងរូបភាពរៀងរាល់
+  random: ការបញ្ចាំងស្លាយចៃដន្យដោយចៃដន្យ
+  minutes: បីតោ
+  seconds: វិនាទី
+  hours: ម៉ោង
 app_launcher:
   runners:
     label: រត់តមនាង
@@ -242,3 +251,8 @@ update:
   downloading: ទាញយក ...
   channel: ឆានែលធ្វើបច្ចុប្បន្នភាព
 miscellaneous: ដេលមានផ្នេកខុសក្នា
+mods:
+  widgets: ធាតុក្រាហ្វិក
+  plugins: រអារ
+  target: តមរុយសរមាប់បាញ់
+remove: រមកមិ avad ចេញ

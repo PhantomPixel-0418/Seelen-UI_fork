@@ -14,6 +14,11 @@ network:
   not_found: Jokių tinklų nerasta
   more: Daugiau tinklo nustatymų
   hidden: Paslėptas tinklas
+  saved: Išsaugoti tinklai
+  connected: Prisijungta prie
+  scanning: Tinklų nuskaitymas
+  secured: Šifruotas tinklas
+  available: Galimi tinklai
 settings:
   log_out: Atsijungti
   restart: Perkrauti
@@ -35,4 +40,7 @@ placeholder:
   notifications: Pranešimai
 unlabelled_tray: Nepaženklinta dėklo piktograma
 context_menu:
-  remove: Pašalinkite elementą
+  add_module: Pridėti modulį
+  remove: Pašalinkite modulį
+  task_manager: Užduočių tvarkyklė
+  settings: Nustatymai

@@ -14,17 +14,18 @@ header:
     specific_apps: Aplicații specifice
     seelen_bar: Bara de instrumente fantezistă
     monitors: Monitoare
-    seelen_wall: Peretele
     seelen_rofi: Lansator de aplicații
     virtual_desk: Desktop -uri virtuale
     home: Acasă
+    mods: Pluginuri și widget-uri
+    seelen_wall: Manager de tapet
 start:
   title: Bine ati venit!
   message_accent: Optimizează -ți productivitatea cu stil!
   message: >-
     Bine ați venit la Seelen UI, mediul de desktop final cu un manager Windows
-    de gresie încorporat pentru a vă îmbunătăți experiența Windows 11! Explorați
-    o nouă eră de eficiență și multitasking cu interfața noastră intuitivă și
+    de gresie încorporat pentru a vă îmbunătăți experiența Windows! Explorați o
+    nouă eră de eficiență și multitasking cu interfața noastră intuitivă și
     caracteristicile avansate.
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   enable: Activați bara de instrumente fantezistă
   auto_hide: Ascunde auto
   label: Bara de instrumente
+  delay_to_hide: Întârzie să te ascunzi
+  delay_to_show: Întârzieți afișarea
 wm:
   border:
     enable: Activați granița ferestrei
@@ -83,6 +86,8 @@ weg:
   enable: Activați Dock/Bara de activități
   padding: Căptușeală
   dock_side: Poziţie
+  delay_to_hide: Întârzie să te ascunzi
+  delay_to_show: Întârzieți afișarea
 devtools:
   load: Sarcină
   data_folder: Folder de date
@@ -110,12 +115,12 @@ apps_configurations:
     title_create: Crearea {{nume}}
     workspace: Spațiu de lucru
     title_readonly: Vizualizare {{nume}}
-    title_edit: Editt {{nume}}
     ok_readonly: Editați ca nou
     monitor: Monitor
     wm_options_label: Opțiuni manager de ferestre
     weg_options_label: Opțiuni de doc/bara de activități
     options_label: Opțiuni suplimentare
+    title_edit: Editare {{nume}}
   identifier:
     and: ȘI
     or: SAU
@@ -227,10 +232,14 @@ save_and_restart: Salvați și reporniți
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  enable: Activați Seelen Wall
   no_background: Slideshow gol, folosind în schimb fundalul temei.
-  interval: Schimbați tapet fiecare (secunde)
   backgrounds: Imagini de fundal
+  enable: Activați manager de tapet
+  interval: Schimbați tapet fiecare
+  random: Prezentare de diapozitive aleatorie
+  hours: ore
+  seconds: secunde
+  minutes: minute
 app_launcher:
   runners:
     cmd: Comanda
@@ -247,3 +256,8 @@ update:
   channel: Actualizare canal
   downloading: Descărcare ...
 miscellaneous: Diverse
+mods:
+  target: Ţintă
+  plugins: Pluginuri
+  widgets: Widgets
+remove: Elimina

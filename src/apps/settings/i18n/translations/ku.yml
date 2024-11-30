@@ -14,16 +14,17 @@ header:
     shortcuts: Kurtefîlm
     specific_apps: Serlêdanên taybetî
     monitors: Çavdêr
-    seelen_wall: Dîwar
     seelen_rofi: App launcher
     virtual_desk: Desktopên Virtual
     home: Xane
+    mods: Plugin & Widgets
+    seelen_wall: Gerînendeyê Wallpaper
 start:
   title: Bi xêr hatî!
   message_accent: Hilberîna xwe bi şêwazê xweştir bikin!
   message: >-
     Welcome to Seelen Ui, hawîrdora desktopê ya paşîn a bi navgînek pencereya bi
-    navgîniya Windows-ê re ku ezmûna Windows 11 zêde bike! Li ser serdemek nû û
+    navgîniya Windows-ê re ku ezmûna Windows zêde bike! Li ser serdemek nû û
     pirrjimar bi navbeynkariya intuitive û taybetmendiyên pêşkeftî vekolînin.
 general:
   theme:
@@ -54,6 +55,8 @@ toolbar:
   enable: Vebijêrkek Fancy Vebijêrin
   auto_hide: Auto Hide
   label: Toolbar
+  delay_to_show: Dereng nîşan bide
+  delay_to_hide: Dereng ji bo veşartinê
 wm:
   border:
     width: Berfirehiya sînor
@@ -82,6 +85,8 @@ weg:
   label: Dock / Taskbar
   padding: Padding
   dock_side: Rewş
+  delay_to_hide: Dereng ji bo veşartinê
+  delay_to_show: Dereng nîşan bide
 devtools:
   load: Dawetkirin
   app_folders: Pelên App
@@ -111,10 +116,10 @@ apps_configurations:
     ok_create: Xûliqandin
     workspace_placeholder: Netû
     ok_readonly: Wekî nû biguherînin
-    title_edit: Editting {name}}
     weg_options_label: Vebijarkên Dock / Taskbar
     wm_options_label: Vebijarkên rêveberê pencereyê
     options_label: Vebijarkên zêde
+    title_edit: Verastkirin {{name}}
   identifier:
     and: Û
     or: AN
@@ -223,9 +228,13 @@ monitors_configurations:
   label: Monitor {{Index-}
 wall:
   backgrounds: Wallpapers
-  enable: Dîwarê Seelen çalak bike
-  interval: Wallpaper her (seconds)
   no_background: Slideshow vala, li şûna bikaranîna paşnavê mijarê.
+  enable: Gerînendeyê Wallpaper çalak bike
+  interval: Her kesê biguherînin
+  random: Slideshow Randomize
+  minutes: deqq
+  seconds: seconds
+  hours: demjimêr
 app_launcher:
   runners:
     cmd: Ferman
@@ -242,3 +251,8 @@ update:
   downloading: Daxistin ...
   channel: Kanala Nûve
 miscellaneous: Lihevket
+mods:
+  target: Armanc
+  widgets: Widgets
+  plugins: Pêçanin
+remove: Dûrxistin

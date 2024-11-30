@@ -14,14 +14,15 @@ header:
     developer: Arendaja
     info: Teave
     seelen_bar: Väljamõeldud tööriistariba
-    seelen_wall: Sein
     seelen_rofi: Rakenduse käivitaja
     virtual_desk: Virtuaalsed töölauad
     home: Kodu
+    mods: Pluginad ja vidinad
+    seelen_wall: Tapeedijuht
 start:
   message: >-
     Tere tulemast Seelen UI -sse, mis on Ultimate Desktop -keskkond koos
-    inkorporeeritud plaatidega Windowsi halduriga, et täiustada oma Windows 11
+    inkorporeeritud plaatidega Windowsi halduriga, et täiustada oma Windows
     kogemust! Uurige meie intuitiivse liidese ja edasijõudnute funktsioonidega
     uut tõhususe ja multitegumtöötluse ajastut.
   title: Tere tulemast!
@@ -55,6 +56,8 @@ toolbar:
   enable: Luba väljamõeldud tööriistariba
   auto_hide: Automaatne peida
   label: Tööriistariba
+  delay_to_show: Näitamisega viivitus
+  delay_to_hide: Viivitage peitmine
 wm:
   border:
     width: Piirilaius
@@ -83,6 +86,8 @@ weg:
   margin: Marginaal
   enable: Luba dokk/ülesanderiba
   dock_side: Positsioon
+  delay_to_show: Näitamisega viivitus
+  delay_to_hide: Viivitage peitmine
 devtools:
   app_folders: Rakenduse kaustad
   data_folder: Andmekaust
@@ -109,13 +114,13 @@ apps_configurations:
     workspace_placeholder: Mitte ükski
     monitor: Ekraan
     name: Nimetus
-    title_edit: Redigeerimine {{nimi}}
     title_readonly: Vaatamine {{nimi}}
     bindings: Sidumine (pange tähele mõlemat suvandit)
     ok_edit: Värskendama
     weg_options_label: Dokk/ülesanderiba valikud
     wm_options_label: Aknahalduri valikud
     options_label: Lisavalikud
+    title_edit: Redigeerimine {{nimi}}
   identifier:
     negation: Eitav sobitamine
     matching_strategy: Sobiv strateegia
@@ -225,9 +230,13 @@ monitors_configurations:
   label: Monitor {{indeks}}
 wall:
   backgrounds: Taustapildid
-  interval: Muutke tapeet iga (sekundit)
   no_background: Tühi slaidiseanss, kasutades selle asemel teema tausta.
-  enable: Luba Seeleni sein
+  enable: Luba tapeedihaldur
+  interval: Vahetage tapeeti iga
+  random: Randoriseeri slaidiseanss
+  seconds: sekundid
+  minutes: protokoll
+  hours: tööaeg
 app_launcher:
   runners:
     cmd: Käsk
@@ -244,3 +253,8 @@ update:
   channel: Värskenduskanal
   downloading: Allalaadimine ...
 miscellaneous: Mitmesuguseid
+mods:
+  plugins: Pistikprogrammid
+  target: Sihtmärk
+  widgets: Vidinad
+remove: Eemaldama

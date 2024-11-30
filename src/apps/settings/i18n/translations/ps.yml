@@ -15,14 +15,15 @@ header:
     monitors: څارونکي
     shortcuts: لنډوکونه
     seelen_rofi: د اپلیکیشن لانچر
-    seelen_wall: دېوال
     virtual_desk: مجازی ډیسټاپونه
     home: کور
+    mods: پلگ انونه او ویجټونه
+    seelen_wall: د وال پیپر سمبالګر
 start:
   title: ښه راغلاست!
   message_accent: د سټایل سره خپل محصول غوره کړئ!
   message: >-
-    د زنګ وهلو ته ښه راغلاست، حتمي ډیسټاپ چاپیریال د خپل وینډوز 11 تجربې ته وده
+    د زنګ وهلو ته ښه راغلاست، حتمي ډیسټاپ چاپیریال د خپل وینډوز تجربې ته وده
     ورکولو لپاره د شامل شوي ټایټاپ وینډوز چاپیریال سره! زموږ د استثنایی بیرونځای
     او پرمختللي ب shape و سره د اغیزمنتیا او ضرباتو نوې دوره وپلټئ.
 general:
@@ -54,6 +55,8 @@ toolbar:
   height: لوړوالی
   auto_hide: آٹو پټول
   label: توکپټه
+  delay_to_hide: د پټولو لپاره ځنډ
+  delay_to_show: د ښودلو لپاره ځنډ
 wm:
   border:
     width: د بريد سور
@@ -82,6 +85,8 @@ weg:
   enable: دوک / ټاسک بار فعال کړئ
   auto_hide: آٹو پټول
   dock_side: موقعیت
+  delay_to_hide: د پټولو لپاره ځنډ
+  delay_to_show: د ښودلو لپاره ځنډ
 devtools:
   custom_config_file: د دودیز ترتیب فایل پورته کړئ
   enable: د پراختیا کونکي وسیلې فعال کړئ
@@ -99,7 +104,6 @@ apps_configurations:
       float: فلوټ
       hidden: د ډیک / ټاسک بار څخه پټول
     ok_readonly: د نوي په توګه
-    title_edit: د {{{{}} ترمیم کول
     category_placeholder: هیڅ نه
     category: کټګورۍ
     ok_create: جوړول
@@ -115,6 +119,7 @@ apps_configurations:
     wm_options_label: د کړکۍ مدیر اختیارونه
     weg_options_label: دوک / ټاسک بار انتخابونه
     options_label: اضافي اختیارونه
+    title_edit: ترمیم. {{}}
   identifier:
     or: یا
     id: پېژنيزه
@@ -223,8 +228,12 @@ monitors_configurations:
 wall:
   backgrounds: والپيپرونه
   no_background: پرځای یې خالي سلایډونه، پرځای د موضوع شالید په کارولو سره.
-  enable: د نیکي دیوال فعال کړئ
-  interval: وال پیپر هر (ثانیې)
+  enable: د وال پیپر مدیر فعال کړئ
+  random: تصادفي سلایډ
+  interval: په وال پیپر بدل کړئ
+  minutes: دقیقې
+  seconds: ثانیې
+  hours: ساعتونه
 app_launcher:
   runners:
     explorer: منډه وهل
@@ -241,3 +250,8 @@ update:
   downloading: دانلود ...
   channel: چینل تازه کول
 miscellaneous: متفرقه
+mods:
+  plugins: فلګونه
+  widgets: ویجټونه
+  target: هدف
+remove: لرې کول

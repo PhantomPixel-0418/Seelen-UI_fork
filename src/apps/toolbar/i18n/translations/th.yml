@@ -14,6 +14,11 @@ network:
   not_found: ไม่พบเครือข่าย
   disconnect: ตัดการเชื่อมต่อ
   hidden: เครือข่ายที่ซ่อน
+  available: เครือข่ายที่มีอยู่
+  secured: เครือข่ายที่เข้ารหัส
+  scanning: กำลังสแกนหาเครือข่าย
+  saved: เครือข่ายที่บันทึกไว้
+  connected: เชื่อมต่อกับ
 settings:
   restart: เริ่มต้นใหม่
   app_settings: การตั้งค่าแอป
@@ -35,4 +40,7 @@ placeholder:
   notifications: การแจ้งเตือน
 unlabelled_tray: ไอคอนถาดที่ไม่มีป้ายกำกับ
 context_menu:
-  remove: ลบรายการ
+  remove: ลบโมดูล
+  add_module: เพิ่มโมดูล
+  task_manager: ตัวจัดการงาน
+  settings: การตั้งค่า

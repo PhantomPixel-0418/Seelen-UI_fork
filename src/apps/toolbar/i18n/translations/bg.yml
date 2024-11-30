@@ -14,6 +14,11 @@ network:
   hidden: Скрита мрежа
   more: Повече мрежови настройки
   disconnect: Изключете
+  available: Налични мрежи
+  connected: Свързан с
+  secured: Криптирана мрежа
+  saved: Запазени мрежи
+  scanning: Сканиране за мрежи
 settings:
   shutdown: Изключвам
   log_out: Излез от профила си
@@ -35,4 +40,7 @@ placeholder:
   notifications: Известия
 unlabelled_tray: Необичана икона на таблата
 context_menu:
-  remove: Премахнете елемента
+  remove: Премахване на модула
+  add_module: Добавете модул
+  task_manager: Диспечер на задачите
+  settings: Настройки

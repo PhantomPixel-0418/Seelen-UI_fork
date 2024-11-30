@@ -14,6 +14,11 @@ network:
     password: Mot de passe
   disconnect: Déconnecter
   connect: Connecter
+  connected: Connecté à
+  available: Réseaux disponibles
+  saved: Réseaux enregistrés
+  secured: Réseau crypté
+  scanning: Recherche de réseaux
 settings:
   title: Paramètres
   app_settings: Paramètres de l'application
@@ -35,4 +40,7 @@ placeholder:
   notifications: Notifications
 unlabelled_tray: Icône de plateau non étiquetée
 context_menu:
-  remove: Supprimer
+  add_module: Ajouter le module
+  remove: Retirer le module
+  task_manager: Gestionnaire de tâches
+  settings: Paramètres

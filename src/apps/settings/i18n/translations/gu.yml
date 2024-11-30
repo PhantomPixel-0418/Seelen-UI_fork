@@ -14,18 +14,18 @@ header:
     info: માહિતી
     specific_apps: વિશિષ્ટ એપ્લિકેશનો
     seelen_wm: વિન્ડો મેનેજર
-    seelen_wall: દિવાલ
     seelen_rofi: હાથ
     virtual_desk: વર્ચ્યુઅલ ડેસ્કટ .પ
     home: ઘર
+    mods: પ્લગઇન્સ અને વિજેટ્સ
+    seelen_wall: વ wallpaper લપેપર મેનેજર
 start:
   title: સ્વાગત છે!
   message_accent: શૈલી સાથે તમારી ઉત્પાદકતાને ઑપ્ટિમાઇઝ કરો!
   message: >-
-    તમારા Windows 11 અનુભવને વધારવા માટે સમાવિષ્ટ ટાઇલિંગ વિન્ડોઝ મેનેજર સાથે
-    અંતિમ ડેસ્કટોપ પર્યાવરણ, સીલેન UI માં આપનું સ્વાગત છે! અમારા સાહજિક ઇન્ટરફેસ
-    અને અદ્યતન સુવિધાઓ સાથે કાર્યક્ષમતા અને મલ્ટિટાસ્કિંગના નવા યુગનું અન્વેષણ
-    કરો.
+    તમારા Windows અનુભવને વધારવા માટે સમાવિષ્ટ ટાઇલિંગ વિન્ડોઝ મેનેજર સાથે અંતિમ
+    ડેસ્કટોપ પર્યાવરણ, સીલેન UI માં આપનું સ્વાગત છે! અમારા સાહજિક ઇન્ટરફેસ અને
+    અદ્યતન સુવિધાઓ સાથે કાર્યક્ષમતા અને મલ્ટિટાસ્કિંગના નવા યુગનું અન્વેષણ કરો.
 general:
   theme:
     placeholder: થીમ પસંદ કરો
@@ -55,6 +55,8 @@ toolbar:
   enable: ફેન્સી ટૂલબાર સક્ષમ કરો
   auto_hide: સ્વત hideપ
   label: વમળ
+  delay_to_show: બતાવવામાં વિલંબ
+  delay_to_hide: છુપાવવામાં વિલંબ
 wm:
   border:
     width: સરહદની પહોળાઈ
@@ -83,6 +85,8 @@ weg:
   width: પહોળાઈ
   gap: ગેપ
   dock_side: પદ
+  delay_to_show: બતાવવામાં વિલંબ
+  delay_to_hide: છુપાવવામાં વિલંબ
 devtools:
   install_folder: ઇન્સ્ટોલેશન ફોલ્ડર
   custom_config_file: કસ્ટમ રૂપરેખા ફાઇલ લોડ કરો
@@ -111,11 +115,11 @@ apps_configurations:
     ok_edit: અપડેટ કરો
     title_readonly: '{{name}} જોઈ રહ્યાં છીએ'
     bindings: બંધનકર્તા (નોંધો કે બંને વિકલ્પો જરૂરી છે)
-    title_edit: સંપાદન {{name}}
     ok_create: બનાવો
     wm_options_label: વિંડો મેનેજર વિકલ્પો
     weg_options_label: ડોક/ટાસ્કબાર વિકલ્પો
     options_label: વધારાના વિકલ્પો
+    title_edit: સંપાદન {{નામ}}
   identifier:
     remove: બ્લોક કાઢી નાખો
     add_block: બ્લોક ઉમેરો
@@ -226,9 +230,13 @@ monitors_configurations:
   label: મોનિટર કરો {{અનુક્રમણિકા}}
 wall:
   backgrounds: વ wallpapers લપેપર્સ
-  interval: દરેક (સેકંડ) વ wallp લપેપર બદલો
   no_background: તેના બદલે થીમની પૃષ્ઠભૂમિનો ઉપયોગ કરીને ખાલી સ્લાઇડશો.
-  enable: સીલેન દિવાલને સક્ષમ કરો
+  enable: વ wallp લપેપર મેનેજરને સક્ષમ કરો
+  random: સ્લાઇડશોને રેન્ડમાઇઝ કરો
+  interval: દરેક વ wallp લપેપર બદલો
+  hours: સમય
+  minutes: પ્રકાર
+  seconds: સેકન્ડ
 app_launcher:
   runners:
     explorer: દોડવું
@@ -245,3 +253,8 @@ update:
   downloading: ડાઉનલોડ ...
   channel: અપડેટ
 miscellaneous: પરચુરણ
+mods:
+  plugins: તૃણ
+  target: નિશાન
+  widgets: વિજેટો
+remove: દૂર કરવું

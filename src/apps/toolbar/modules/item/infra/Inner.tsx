@@ -21,6 +21,7 @@ export interface InnerItemProps extends PropsWithChildren {
   extraVars?: Record<string, any>;
   active?: boolean;
   clickable?: boolean;
+  onWheel?: (e: React.WheelEvent) => void;
   // needed for dropdown/popup wrappers
   onClick?: (e: React.MouseEvent) => void;
   onKeydown?: (e: React.KeyboardEvent) => void;
@@ -156,6 +157,7 @@ export function InnerItem(props: InnerItemProps) {
     active,
     onClick: onClickProp,
     onKeydown: onKeydownProp,
+    onWheel: onWheelProp,
     children,
     clickable = true,
     ...rest
@@ -214,12 +216,14 @@ export function InnerItem(props: InnerItemProps) {
       <Reorder.Item
         {...rest}
         id={id}
+        value={(module as any).__value__ || module}
         style={style}
         className={cx('ft-bar-item', {
           // onClickProp is omitted cuz it always comes via context menu dropdown wrapper
           'ft-bar-item-clickable': clickable || oldOnClick || onClickV2,
           'ft-bar-item-active': active,
         })}
+        onWheel={onWheelProp}
         onKeyDown={onKeydownProp}
         onClick={(e) => {
           onClickProp?.(e);
@@ -230,9 +234,12 @@ export function InnerItem(props: InnerItemProps) {
 
           performClick(oldOnClick, scope.current);
         }}
-        value={module}
         as="div"
         transition={{ duration: 0.15 }}
+        onContextMenu={(e) => {
+          e.stopPropagation();
+          (rest as any).onContextMenu?.(e);
+        }}
       >
         <div className="ft-bar-item-content">
           {children || elements}

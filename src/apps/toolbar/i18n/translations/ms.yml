@@ -14,6 +14,11 @@ network:
   hidden: Rangkaian Tersembunyi
   not_found: Tiada rangkaian dijumpai
   connect: Sambung
+  saved: Rangkaian yang disimpan
+  scanning: Mengimbas untuk rangkaian
+  secured: Rangkaian yang disulitkan
+  connected: Disambungkan ke
+  available: Rangkaian yang tersedia
 settings:
   shutdown: Menutup
   log_out: Log keluar
@@ -35,4 +40,7 @@ placeholder:
   notifications: Pemberitahuan
 unlabelled_tray: Ikon dulang yang tidak dilabel
 context_menu:
-  remove: Keluarkan item
+  remove: Keluarkan modul
+  add_module: Tambah modul
+  settings: tetapan
+  task_manager: Pengurus Tugas

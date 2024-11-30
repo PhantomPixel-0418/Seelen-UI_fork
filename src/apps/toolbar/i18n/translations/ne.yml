@@ -14,6 +14,11 @@ network:
   hidden: लुकेको नेटवर्क
   more: अधिक नेटवर्क सेटिंग्स
   connect: जोड्नु
+  saved: सुरक्षित नेटवर्कहरू
+  scanning: नेटवर्कहरूको लागि स्क्यान गर्दै
+  connected: मा जोडिएको छ
+  available: उपलब्ध नेटवर्कहरू
+  secured: ईन्क्रिप्टेड नेटवर्क
 settings:
   shutdown: बन्द गर
   restart: फेरि शुरु गर्नु
@@ -35,4 +40,7 @@ placeholder:
   notifications: सूचना
 unlabelled_tray: अनलिसर गरिएको ट्रे आइकन
 context_menu:
-  remove: वस्तु हटाउनुहोस्
+  add_module: मोड्युल थप्नुहोस्
+  remove: मोड्युल हटाउनुहोस्
+  task_manager: कार्य प्रबन्धक
+  settings: सेटिङहरू

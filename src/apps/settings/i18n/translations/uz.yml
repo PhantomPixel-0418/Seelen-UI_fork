@@ -14,14 +14,15 @@ header:
     specific_apps: Muayyan ilovalar
     shortcuts: Yorliqlar
     seelen_weg: Dok / vazifalar paneli
-    seelen_wall: Devor
     seelen_rofi: Ilovani ishga tushirish vositasi
     virtual_desk: Virtual ish stollari
     home: Uy
+    mods: Plaginlar va vidjetlar
+    seelen_wall: Fon rasmi menejeri
 start:
   message_accent: O'zingizning mahsuldorligingizni uslub bilan optimallashtiring!
   message: >-
-    Windows 11 tajribangizni oshirish uchun "Windows" bosh murabbiyi bo'lgan
+    Windows tajribangizni oshirish uchun "Windows" bosh murabbiyi bo'lgan
     Windows menejeriga ega Seelen UI-ga xush kelibsiz! Bizning intuitiv
     interfeysimiz va rivojlangan xususiyatlarimiz bilan samaradorlik va ko'p
     bosqichli yangi davrni o'rganing.
@@ -55,6 +56,8 @@ toolbar:
   height: Balandlik
   auto_hide: Avtomatik yashirish
   label: Asboblar paneli
+  delay_to_hide: Yashirish uchun kechikish
+  delay_to_show: Ko'rsatish uchun kechikish
 wm:
   border:
     width: Chegara kengligi
@@ -83,6 +86,8 @@ weg:
   gap: Bo'shliq
   margin: Marja
   dock_side: Pozitsiya
+  delay_to_show: Ko'rsatish uchun kechikish
+  delay_to_hide: Yashirish uchun kechikish
 devtools:
   install_folder: O'rnatish papkasini o'rnatish
   enable: Ishlab chiqaruvchi vositalarni yoqish
@@ -112,10 +117,10 @@ apps_configurations:
     category: Tili
     ok_create: Yaratmoq
     ok_edit: Yangilamoq
-    title_edit: '{{Ism}} tahrirlash'
     wm_options_label: Oyna boshqaruvchisi variantlari
     weg_options_label: Dok / vazifalar paneli
     options_label: Qo'shimcha variantlar
+    title_edit: '{{Ismi}} tahrirlash'
   identifier:
     add_block: Blokni qo'shish
     remove: Blokni o'chirish
@@ -229,8 +234,12 @@ monitors_configurations:
 wall:
   backgrounds: Fon rasmlari
   no_background: O'rniga slaydshown, ularning o'rniga formatdan foydalanib.
-  interval: Har bir (soniya) devor qog'ozini o'zgartiring
-  enable: Seelen devorini yoqing
+  enable: Fon rasmi menejerini yoqing
+  random: Tasodifiy slayd-shou
+  interval: Har bir devor rasmini o'zgartiring
+  hours: soat
+  minutes: daqiqa
+  seconds: soniya
 app_launcher:
   runners:
     cmd: Buyruq
@@ -247,3 +256,8 @@ update:
   channel: Kanalni yangilash
   downloading: Yuklab olish ...
 miscellaneous: Har xil
+mods:
+  plugins: Plaginlar
+  widgets: Vidjetlar
+  target: Maqsad
+remove: Olib tashlamoq

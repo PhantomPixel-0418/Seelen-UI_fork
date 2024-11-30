@@ -14,6 +14,11 @@ network:
   disconnect: Ajratmoq
   more: Ko'proq tarmoq sozlamalari
   not_found: Tarmoq topilmadi
+  available: Mavjud tarmoqlar
+  saved: Saqlangan tarmoqlar
+  connected: ga ulangan
+  secured: Shifrlangan tarmoq
+  scanning: Tarmoqlarni skanerlash
 settings:
   restart: Qayta ishga tushirish
   shutdown: O'chirish; yopish
@@ -35,4 +40,7 @@ placeholder:
   notifications: Bildirishnoma
 unlabelled_tray: Bojavelilmagan aşınma ikonka
 context_menu:
-  remove: Elementni olib tashlang
+  remove: Modulni olib tashlash
+  add_module: Modul qo'shing
+  settings: Sozlamalar
+  task_manager: Vazifa menejeri

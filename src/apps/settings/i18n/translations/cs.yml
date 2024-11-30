@@ -15,14 +15,15 @@ header:
     specific_apps: Konkrétní aplikace
     shortcuts: Zkratky
     seelen_rofi: Spouštěč aplikací
-    seelen_wall: Zeď
     virtual_desk: Virtuální stolní počítače
     home: Domov
+    mods: Pluginy a widgety
+    seelen_wall: Správce tapet
 start:
   title: Vítejte!
   message: >-
     Vítejte v SEELEN UI, Ultimate Desktop Environment s začleněným obkladovým
-    systémem Windows Manager, aby se zlepšil váš zážitek ze systému Windows 11!
+    systémem Windows Manager, aby se zlepšil váš zážitek ze systému Windows!
     Prozkoumejte novou éru účinnosti a multitaskingu s naším intuitivním
     rozhraním a pokročilými funkcemi.
   message_accent: Optimalizujte svou produktivitu stylem!
@@ -55,6 +56,8 @@ toolbar:
   enable: Povolte ozdobný panel nástrojů
   auto_hide: Automatická skrýt
   label: Panel nástrojů
+  delay_to_show: Zpoždění zobrazení
+  delay_to_hide: Odložit se schovat
 wm:
   border:
     width: Šířka hranic
@@ -83,6 +86,8 @@ weg:
   gap: Mezera
   padding: Polstrování
   dock_side: Pozice
+  delay_to_hide: Odložit se schovat
+  delay_to_show: Zpoždění zobrazení
 devtools:
   data_folder: Datová složka
   settings_file: Nastavení souboru
@@ -108,7 +113,6 @@ apps_configurations:
     monitor_placeholder: Žádný
     bindings: Vazba (poznámka o tom, že jsou vyžadovány obě možnosti)
     workspace: Pracovní prostor
-    title_edit: Editace {{name}}
     title_create: Vytváření {{name}}
     ok_readonly: Upravit jako nové
     name: název
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Možnosti doku/hlavního panelu
     wm_options_label: Možnosti správce oken
     options_label: Další možnosti
+    title_edit: Úpravy {{name}}
   identifier:
     add_block: Přidat blok
     negation: Negovat odpovídající
@@ -225,10 +230,14 @@ save_and_restart: Uložit a restartovat
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  enable: Povolte zeď Seelen
   backgrounds: Tapety
   no_background: Prázdná prezentace místo toho za použití pozadí tématu.
-  interval: Změňte tapetu každý (sekundy)
+  enable: Povolit správce tapet
+  interval: Změňte tapetu každý
+  random: Randomize prezentace
+  minutes: zápis
+  seconds: sekundy
+  hours: hodiny
 app_launcher:
   runners:
     explorer: Běh
@@ -245,3 +254,8 @@ update:
   downloading: Stahování ...
   channel: Aktualizovat kanál
 miscellaneous: Smíšený
+mods:
+  target: Cíl
+  plugins: Pluginy
+  widgets: Widgety
+remove: Odstranit

@@ -15,14 +15,15 @@ header:
     shortcuts: Դյուրանցումներ
     seelen_wm: Պատուհանների կառավարիչ
     seelen_rofi: Ծրագրի գործարկիչ
-    seelen_wall: Պատը
     virtual_desk: Վիրտուալ աշխատասեղաններ
     home: Տուն
+    mods: Փլագիններ և վիդջեթներ
+    seelen_wall: Պաստառների կառավարիչ
 start:
   title: Բարի գալուստ
   message: >-
     Բարի գալուստ SEELEN UI, Ultimate Desktop միջավայրը `ներառված սալիկապատման
-    մենեջեր` ձեր Windows 11 փորձը բարելավելու համար: Ուսումնասիրեք
+    մենեջեր` ձեր Windows փորձը բարելավելու համար: Ուսումնասիրեք
     արդյունավետության եւ բազմամշակման նոր դարաշրջան մեր ինտուիտիվ ինտերֆեյսով եւ
     առաջադեմ հատկություններով:
   message_accent: 'Օպտիմիզացրեք ձեր արտադրողականությունը ոճով:'
@@ -55,6 +56,8 @@ toolbar:
   height: Բարձրություն
   auto_hide: Ավտոմատ թաքցնել
   label: Գործիքագոտու
+  delay_to_hide: Հետաձգել թաքցնելը
+  delay_to_show: Ցուցադրման ուշացում
 wm:
   border:
     enable: Միացնել պատուհանի սահմանը
@@ -83,6 +86,8 @@ weg:
   label: Dock / Taskbar
   padding: Լիցք
   dock_side: Դիրք
+  delay_to_show: Ցուցադրման ուշացում
+  delay_to_hide: Հետաձգել թաքցնելը
 devtools:
   custom_config_file: Բեռնեք պատվերով կազմաձեւման ֆայլը
   data_folder: Տվյալների պանակ
@@ -109,13 +114,13 @@ apps_configurations:
     category: Կատեգորիա
     ok_create: Ստեղծել
     title_readonly: Դիտում է {{Անունը}
-    title_edit: Խմբագրում {{Անվան}
     ok_readonly: Խմբագրել որպես նոր
     ok_edit: Թարմացում
     title_create: Ստեղծելով {{name}
     wm_options_label: Պատուհանների մենեջեր Ընտրանքներ
     weg_options_label: Dock / Taskbar Ընտրանքներ
     options_label: Լրացուցիչ ընտրանքներ
+    title_edit: Խմբագրում {{name}
   identifier:
     or: ԿԱՄ
     and: Մի քանազոր
@@ -228,9 +233,13 @@ monitors_configurations:
   label: Մոնիտոր {{ինդեքս}
 wall:
   backgrounds: Պաստառներ
-  enable: Միացնել Seelen Wall- ը
-  interval: Փոխեք պաստառները ամեն (վայրկյան)
   no_background: 'Դատարկ սլայդերի ցուցադրություն, փոխարենը օգտագործելով թեմայի ֆոնը:'
+  enable: Միացրեք Պաստառների կառավարիչը
+  interval: Ամեն ինչ փոխեք պաստառ
+  random: Պատահականացրեք սլայդերի ցուցադրումը
+  minutes: րոպե
+  seconds: վայրկյան
+  hours: ժամ
 app_launcher:
   runners:
     label: Վազողներ
@@ -247,3 +256,8 @@ update:
   channel: Թարմացրեք ալիքը
   downloading: Ներբեռնում ...
 miscellaneous: Զանազան
+mods:
+  target: Թիրախ
+  plugins: Plugins
+  widgets: Widgets
+remove: Հեռացնել

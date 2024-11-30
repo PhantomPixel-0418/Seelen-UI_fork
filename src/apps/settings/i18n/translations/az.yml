@@ -14,15 +14,16 @@ header:
     shortcuts: Qısaylıq
     seelen_bar: Xülya alətlər paneli
     general: General
-    seelen_wall: Divar
     seelen_rofi: App başlatıcısı
     virtual_desk: Virtual masaüstü
     home: Evdə
+    mods: Pluginlər və Vidjetlər
+    seelen_wall: Divar kağızı meneceri
 start:
   title: Xoş gəliş edin!
   message_accent: Üslubla məhsuldarlığınızı optimallaşdırın!
   message: >-
-    Windows 11 təcrübənizi artırmaq üçün birləşdirilmiş bir kirəmit windows
+    Windows təcrübənizi artırmaq üçün birləşdirilmiş bir kirəmit windows
     meneceri olan son masa üstü mühiti Seelen Ui-yə xoş gəlmisiniz! İntuitiv
     interfeysimiz və inkişaf etmiş xüsusiyyətlərimizlə yeni bir səmərəlilik və
     çoklu bir dövrü araşdırın.
@@ -55,6 +56,8 @@ toolbar:
   enable: Zərif alət çubuğunu aktivləşdirin
   auto_hide: Avtomatik gizlətmək
   label: Alət çubuğu
+  delay_to_show: Göstərmək üçün gecikmə
+  delay_to_hide: Gizlətmək üçün gecikmə
 wm:
   border:
     width: Sərhəd eni
@@ -83,6 +86,8 @@ weg:
   label: Dock / tapşırıq çubuğu
   enable: Dock / tapşırıq çubuğunu aktivləşdirin
   dock_side: Mövqe
+  delay_to_show: Göstərmək üçün gecikmə
+  delay_to_hide: Gizlətmək üçün gecikmə
 devtools:
   app_folders: Tətbiq qovluqları
   data_folder: Məlumat qovluğu
@@ -112,10 +117,10 @@ apps_configurations:
     title_readonly: Bax {{ad}}
     ok_create: Yaratmaq
     workspace: İş sahəsi
-    title_edit: '{{Ad}} redaktəsi'
     weg_options_label: Dock / tapşırıq çubuğu seçimləri
     wm_options_label: Pəncərə meneceri variantları
     options_label: Əlavə seçimlər
+    title_edit: Redaktə {{ad}}
   identifier:
     add_block: Blok əlavə edin
     negation: Uyğunlaşmanı rədd edin
@@ -224,10 +229,14 @@ save_and_restart: Saxla və yenidən başladın
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  interval: Hər (saniyə) divar kağızı dəyişdirin
   backgrounds: Divar kağızları
-  enable: Seelen Divarını aktivləşdirin
   no_background: Bunun əvəzinə mövzunun fonundan istifadə edərək boş slayd şousu.
+  enable: Divar kağızı menecerini aktivləşdirin
+  interval: Divar kağızı hər birini dəyişdirin
+  random: Slayd şousu
+  hours: sair
+  seconds: saniyə
+  minutes: dəqiqəlik
 app_launcher:
   runners:
     label: Qaçışçı
@@ -244,3 +253,8 @@ update:
   channel: Kanal yeniləmə
   downloading: Yükləmə ...
 miscellaneous: Müxtəlif
+mods:
+  widgets: Vidjetlər
+  target: Hədəfi
+  plugins: Plaginlər
+remove: Çıxarmaq

@@ -14,15 +14,16 @@ header:
     developer: Developer
     specific_apps: Tukoy na apps
     seelen_weg: Dock/Taskbar
-    seelen_wall: Ang pader
     seelen_rofi: App launcher
     virtual_desk: Mga Virtual Desktop
     home: Home
+    mods: Mga Plugin at Widget
+    seelen_wall: Tagapamahala ng Wallpaper
 start:
   message: >-
     Maligayang pagdating sa Seelen UI, ang panghuli desktop na kapaligiran na
     may isang isinama na tiling windows manager upang mapahusay ang iyong
-    karanasan sa Windows 11! Galugarin ang isang bagong panahon ng kahusayan at
+    karanasan sa Windows! Galugarin ang isang bagong panahon ng kahusayan at
     multitasking sa aming intuitive interface at mga advanced na tampok.
   title: Maligayang pagdating!
   message_accent: I -optimize ang iyong pagiging produktibo sa estilo!
@@ -55,6 +56,8 @@ toolbar:
   enable: Paganahin ang magarbong toolbar
   auto_hide: Auto itago
   label: Toolbar
+  delay_to_hide: Delay sa pagtatago
+  delay_to_show: Pagkaantala sa pagpapakita
 wm:
   border:
     width: Lapad ng hangganan
@@ -83,6 +86,8 @@ weg:
   auto_hide: Auto itago
   gap: Gap
   dock_side: Posisyon
+  delay_to_show: Pagkaantala sa pagpapakita
+  delay_to_hide: Delay sa pagtatago
 devtools:
   custom_config_file: I -load ang pasadyang config file
   app_folders: Mga folder ng app
@@ -106,7 +111,6 @@ apps_configurations:
     category_placeholder: Wala
     ok_create: Lumikha
     monitor_placeholder: Wala
-    title_edit: Pag -edit {{pangalan}}
     category: Kategorya
     ok_readonly: I -edit bilang bago
     workspace: Workspace
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: Mga pagpipilian sa Window Manager
     weg_options_label: Mga pagpipilian sa pantalan/taskbar
     options_label: Dagdag na mga pagpipilian
+    title_edit: Pag -edit {{pangalan}}
   identifier:
     id: Identifier
     negation: Negate pagtutugma
@@ -230,9 +235,13 @@ monitors_configurations:
   label: Subaybayan {{index}}
 wall:
   backgrounds: Wallpaper
-  enable: Paganahin ang Seelen Wall
   no_background: Walang laman na slideshow, gamit ang background ng tema sa halip.
-  interval: Baguhin ang wallpaper bawat (segundo)
+  enable: Paganahin ang manager ng wallpaper
+  interval: Baguhin ang wallpaper bawat
+  random: Randomize slideshow
+  minutes: minuto
+  seconds: segundo
+  hours: oras
 app_launcher:
   runners:
     explorer: Tumakbo
@@ -249,3 +258,8 @@ update:
   downloading: Pag -download ...
   channel: I -update ang channel
 miscellaneous: Miscellaneous
+mods:
+  plugins: Plugins
+  widgets: Mga widget
+  target: Target
+remove: Alisin

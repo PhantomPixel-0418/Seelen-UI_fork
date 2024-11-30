@@ -1,9 +1,10 @@
 taskbar_menu:
-  settings: Avatud sätted
   start: Lisage käivitusmoodul
   media: Lisage meediumimoodul
   add_file: PIN -i kohandatud fail
   add_folder: PIN -i kohandatud kaust
+  task_manager: Tegumihaldur
+  settings: Seaded
 app_menu:
   pin_to_center: Tihvt keskele
   close: Sulge
@@ -19,3 +20,5 @@ media_menu:
   remove: Eemaldage meediumimoodul
 start_menu:
   remove: Eemaldage algusmoodul
+media:
+  not_playing: Miski ei mängi

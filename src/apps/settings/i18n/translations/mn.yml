@@ -14,14 +14,15 @@ header:
     seelen_wm: Цонхны менежер
     monitors: Хэлэлт авагч
     info: Мэдээлэл
-    seelen_wall: Хана
     seelen_rofi: Програм идэвхжсэн
     virtual_desk: Виржопын ширээний гутал
     home: Гэр
+    mods: Plugins & Widgets
+    seelen_wall: Хувьцааны төлөөлөгчний менежер
 start:
   message_accent: Өөрийнхөө бүтээмжийг загвараар оновчтой болгох!
   message: >-
-    Seelen Ui, Windows 11-ийг сайжруулахын тулд Windows 11-ийг сайжруулахын тулд
+    Seelen Ui, Windows-ийг сайжруулахын тулд Windows-ийг сайжруулахын тулд
     хамгийн дээд талын цонхны менежертэй морилно уу. Шинэ ERA-ийг судлах, олон
     тооны интерфэйстэй, дэвшилтэт шинж чанаруудтай олон тооны үр ашийг судлах.
   title: Сайтар хүлээх,!
@@ -54,6 +55,8 @@ toolbar:
   height: Өндөрлөг
   auto_hide: Авто гүнд
   label: Балтсний хайрцагны хэрэгсэл
+  delay_to_hide: Нуухыг хойшлуулах
+  delay_to_show: Үзүүлэхийг хойшлуулсан
 wm:
   border:
     offset: Хилийн офсет
@@ -82,6 +85,8 @@ weg:
   gap: Цонх
   auto_hide: Авто гүнд
   dock_side: Байрлал
+  delay_to_show: Үзүүлэхийг хойшлуулсан
+  delay_to_hide: Нуухыг хойшлуулах
 devtools:
   settings_file: Тохиргооын нэр
   enable: Хөгжүүлэгч хэрэгслийг идэвхжүүлэх
@@ -106,7 +111,6 @@ apps_configurations:
     ok_edit: Шинэчлэх
     monitor: Хянах
     workspace_placeholder: Хэн ч
-    title_edit: '{{Нэр}}}}'
     ok_create: Шуүгиан дэгдээх
     ok_readonly: Шинэ болгон засах
     name: Нэр
@@ -115,6 +119,7 @@ apps_configurations:
     wm_options_label: Цонх менежерийн сонголтууд
     weg_options_label: Док / Taskbar сонголтууд
     options_label: Нэмий сонголт
+    title_edit: Засварлах {{нэр}}}
   identifier:
     id: Өмнө тайлбар
     or: ЭСВЭЛ
@@ -225,8 +230,12 @@ monitors_configurations:
 wall:
   backgrounds: Ханын цаас
   no_background: Хоосон слайпешт, оронд нь.
-  enable: Seelen Ханыг идэвхжүүл
-  interval: БИДНИЙ ХӨГЖЛИЙН ХУВЬЦАА (секунд)
+  enable: Wallpaper менежерийг идэвхжүүлэх
+  interval: Ханын цаасыг өөрчлөх
+  random: Санамсаргүй байдлаар Slideshes
+  hours: цаг
+  minutes: хоёр хоног
+  seconds: хоёр цаг
 app_launcher:
   runners:
     explorer: Урсгал
@@ -243,3 +252,8 @@ update:
   downloading: Татаж авах ...
   channel: Суваг шинэчлэх
 miscellaneous: Олон төрлийн
+mods:
+  plugins: Гарын үсэг
+  widgets: Аялалын мэдээ
+  target: Даалгавар
+remove: Зөөх

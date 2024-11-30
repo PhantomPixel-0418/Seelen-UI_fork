@@ -22,15 +22,16 @@ header:
     developer: Desarrollador
     info: Información
     seelen_rofi: Lanzador de aplicaciones
-    seelen_wall: La pared
     virtual_desk: Escritorios virtuales
     home: Hogar
+    mods: Complementos y widgets
+    seelen_wall: Gerente de fondo de pantalla
 start:
   title: ¡Bienvenido!
   message: >-
     ¡Bienvenido a Seelen UI, el entorno de escritorio definitivo con un gestor
-    de ventanas en mosaico incorporado para mejorar tu experiencia en Windows
-    11! Explora una nueva era de eficiencia y multitarea con nuestra interfaz
+    de ventanas en mosaico incorporado para mejorar tu experiencia en Windows !
+    Explora una nueva era de eficiencia y multitarea con nuestra interfaz
     intuitiva y funciones avanzadas.
   message_accent: ¡Optimiza tu productividad con estilo!
 general:
@@ -62,6 +63,8 @@ toolbar:
   height: Altura
   auto_hide: Escondite automático
   label: Barra de herramientas
+  delay_to_hide: Retraso para esconderse
+  delay_to_show: Retraso para mostrar
 wm:
   layout: Distribución
   author: Autor
@@ -90,6 +93,8 @@ weg:
     gap: Espacio entre elementos
     visible_separators: Separadores visibles
   dock_side: Posición
+  delay_to_hide: Retraso para esconderse
+  delay_to_show: Retraso para mostrar
 devtools:
   enable: Habilitar herramientas de desarrollador
   app_folders: Carpetas de aplicaciones
@@ -121,7 +126,6 @@ apps_configurations:
     monitor_placeholder: Ninguno
     workspace: Espacio de trabajo
     workspace_placeholder: Ninguno
-    title_edit: Editando {{name}}
     title_create: Creando {{name}}
     title_readonly: Viendo {{name}}
     ok_edit: Actualizar
@@ -136,6 +140,7 @@ apps_configurations:
     wm_options_label: Opciones de administrador de ventanas
     weg_options_label: Opciones de barra de muelle/tareas
     options_label: Opciones adicionales
+    title_edit: Edición {{nombre}}
   identifier:
     remove: Eliminar bloque
     id: Identificador
@@ -228,12 +233,16 @@ save_and_restart: Guardar y reiniciar
 monitors_configurations:
   label: Monitor {{índice}}
 wall:
-  interval: Cambiar papel tapiz cada (segundos)
   no_background: >-
     Presentación de diapositivas vacías, utilizando el fondo del tema en su
     lugar.
   backgrounds: Fondos de pantalla
-  enable: Habilitar la pared de Seelen
+  enable: Habilitar gerente de fondo de pantalla
+  interval: Cambiar papel tapiz cada
+  random: Aleatorizar la presentación de diapositivas
+  minutes: minutos
+  hours: horas
+  seconds: artículos de segunda clase
 app_launcher:
   runners:
     explorer: Correr
@@ -250,3 +259,8 @@ update:
   downloading: Descarga ...
   channel: Actualizar el canal
 miscellaneous: Misceláneas
+mods:
+  plugins: Complementos
+  widgets: Widgets
+  target: Objetivo
+remove: Eliminar

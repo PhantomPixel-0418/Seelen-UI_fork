@@ -1,9 +1,10 @@
 taskbar_menu:
   media: የሚዲያ ሞዱል ያክሉ
-  settings: ክፍት ቅንብሮች
   start: የመነሻ ሞጁል ያክሉ
   add_file: የፒን ብጁ ፋይል
   add_folder: የፒን ብጁ አቃፊ
+  settings: ቅንብሮች
+  task_manager: ተግባር አስተዳዳሪ
 app_menu:
   close: ገጠመ
   pin_to_left: ፒን ወደ ግራ
@@ -19,3 +20,5 @@ media_menu:
   remove: የሚዲያ ሞዱል ያስወግዱ
 start_menu:
   remove: የጀግንነት ሞዱልን ያስወግዱ
+media:
+  not_playing: ምንም የሚጫወት የለም

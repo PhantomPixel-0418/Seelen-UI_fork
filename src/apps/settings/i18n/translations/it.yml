@@ -14,16 +14,17 @@ header:
     seelen_bar: Barra degli strumenti di fantasia
     seelen_wm: Gestore delle finestre
     specific_apps: App specifiche
-    seelen_wall: Sfondo
     seelen_rofi: Lanciatore di applicazioni
     virtual_desk: Desktop virtuali
     home: Casa
+    mods: Plugin e widget
+    seelen_wall: Manager di sfondo
 start:
   title: Benvenuta!
   message: >-
     Benvenuti a Seelen UI, l'ambiente desktop finale con un gestore Windows
-    incorporato per migliorare la tua esperienza di Windows 11! Esplora una
-    nuova era di efficienza e multitasking con la nostra interfaccia intuitiva e
+    incorporato per migliorare la tua esperienza di Windows! Esplora una nuova
+    era di efficienza e multitasking con la nostra interfaccia intuitiva e
     funzionalità avanzate.
   message_accent: Ottimizza la tua produttività con stile!
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: Abilita barra degli strumenti
   auto_hide: Nascondersi auto
   label: Barra degli strumenti
+  delay_to_hide: Ritardo per nascondersi
+  delay_to_show: Ritardo per la presentazione
 wm:
   border:
     width: Larghezza del bordo
@@ -83,6 +86,8 @@ weg:
   label: Dock/TaskBar
   enable: Abilita dock/barra delle applicazioni
   dock_side: Posizione
+  delay_to_hide: Ritardo per nascondersi
+  delay_to_show: Ritardo per la presentazione
 devtools:
   load: Carico
   custom_config_file: Carica il file di configurazione personalizzato
@@ -107,7 +112,6 @@ apps_configurations:
     name: Nome
     category_placeholder: Nessuno
     title_readonly: Visualizzazione {{name}}
-    title_edit: Moditing {{name}}
     workspace: Spazio di lavoro
     bindings: Binding (Nota che sono richieste entrambe le opzioni)
     title_create: Creazione di {{name}}
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Opzioni dock/barra delle applicazioni
     wm_options_label: Opzioni del gestore delle finestre
     options_label: Opzioni extra
+    title_edit: Modifica {{name}}
   identifier:
     and: E
     or: O
@@ -228,9 +233,13 @@ monitors_configurations:
   label: Monitor {{indice}}
 wall:
   backgrounds: Sfondi
-  enable: Abilita Seelen Wall
-  interval: Cambia lo sfondo ogni (secondi)
   no_background: Svuota vuota, usando invece lo sfondo del tema.
+  enable: Abilita Wallpaper Manager
+  interval: Cambia lo sfondo ogni
+  random: Randomizzare la presentazione
+  hours: ore
+  seconds: Secondi
+  minutes: minuti
 app_launcher:
   runners:
     cmd: Comando
@@ -247,3 +256,8 @@ update:
   downloading: Download ...
   channel: Canale di aggiornamento
 miscellaneous: Varie
+mods:
+  target: Bersaglio
+  widgets: Widget
+  plugins: Plugin
+remove: Rimuovere

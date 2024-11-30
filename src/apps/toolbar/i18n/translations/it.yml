@@ -14,6 +14,11 @@ network:
   not_found: Nessuna reti trovata
   more: Più impostazioni di rete
   hidden: Rete nascosta
+  connected: Connesso a
+  scanning: Scansione delle reti
+  saved: Reti salvate
+  secured: Rete crittografata
+  available: Reti disponibili
 settings:
   restart: Ricomincia
   app_settings: Impostazioni dell'app
@@ -35,4 +40,7 @@ placeholder:
   notifications: Notifiche
 unlabelled_tray: Icona del vassoio senza etichetta
 context_menu:
-  remove: Rimuovere l'articolo
+  add_module: Aggiungi modulo
+  remove: Rimuovere il modulo
+  task_manager: Responsabile delle attività
+  settings: Impostazioni

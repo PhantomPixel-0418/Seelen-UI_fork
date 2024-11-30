@@ -14,14 +14,15 @@ header:
     seelen_wm: Maamulaha daaqada
     developer: Abuuris
     info: War
-    seelen_wall: Derbiga
     seelen_rofi: App furaha
     virtual_desk: Desktops Virtual
     home: Guri
+    mods: Plugins & Widgets
+    seelen_wall: Maamulaha Wareegtada
 start:
   message: >-
     Ku soo dhawow SELEN Ui, oo ah jawiga desktop-ka ugu dambeeya oo leh
-    maamulaha Windows-ka oo lagu daro Maareeyaha Windows 11 Sahamiyaan marxalad
+    maamulaha Windows-ka oo lagu daro Maareeyaha Windows Sahamiyaan marxalad
     cusub oo hufnaan iyo fara badan
   title: Soo dhawow!
   message_accent: Ku dadaal wax soo saarkaaga qaabka!
@@ -54,6 +55,8 @@ toolbar:
   height: Dherer
   auto_hide: Auto qaraha
   label: Qalab argamiye
+  delay_to_hide: Dib u dhig si loo qariyo
+  delay_to_show: Dib u dhig si loo muujiyo
 wm:
   border:
     enable: Karti xadka daaqadaha
@@ -82,6 +85,8 @@ weg:
   label: Dock / Tootshar
   auto_hide: Auto qaraha
   dock_side: Meel
+  delay_to_show: Dib u dhig si loo muujiyo
+  delay_to_hide: Dib u dhig si loo qariyo
 devtools:
   app_folders: Faylka app
   install_folder: Xeerka rakibaadda
@@ -111,10 +116,10 @@ apps_configurations:
     name: Magac
     workspace_placeholder: Midna
     ok_create: Abuurid
-    title_edit: Tafatirka {{magacii}
     weg_options_label: Dock / Fursadaha Hawlgalka
     wm_options_label: Xulashooyinka Maamulaha daaqada
     options_label: Fursadaha dheeraadka ah
+    title_edit: Tafatirka {{magaca}}
   identifier:
     remove: Tirtir xannibaadda
     matching_strategy: Istaraatiijiyadda iswaafajinta
@@ -227,10 +232,14 @@ save_and_restart: Badbaadin & Dib u bilow
 monitors_configurations:
   label: Kormeer {{tus ind ind}}
 wall:
-  enable: U oggolow derbiga Selen
   no_background: Slideshow madhan, adoo adeegsanaya asalka mawduuca.
-  interval: Beddel waraaqda derbiga kasta (ilbidhiqsi kasta)
   backgrounds: Darf-biyoodka
+  enable: Awood u yeelo maamulaha derbiga
+  interval: Beddel wadooyinka si kasta
+  random: Kala sooc slideshow
+  hours: saacadood
+  minutes: daqiiqo
+  seconds: sekan
 app_launcher:
   runners:
     cmd: Amrid
@@ -247,3 +256,8 @@ update:
   downloading: Soo dejinta ...
   channel: Cusboonaysiinta Kanaalka
 miscellaneous: Kala duduwan
+mods:
+  plugins: Pluins
+  target: Bar shiish
+  widgets: Widgetts
+remove: Ka qaadid

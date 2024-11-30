@@ -75,8 +75,12 @@ async fn try_connect_to_profile(ssid: &str) -> Result<bool> {
 
     if output.status.success() {
         // wait to ensure connection
-        sleep_millis(2000);
-        Ok(NetworkManager::is_connected_to(ssid)?)
+        let mut attempts = 0;
+        while !NetworkManager::is_connected_to(ssid)? && attempts < 10 {
+            attempts += 1;
+            sleep_millis(1000);
+        }
+        Ok(attempts < 10)
     } else {
         Err(output.into())
     }
@@ -103,8 +107,14 @@ pub async fn wlan_get_profiles() -> Result<Vec<WlanProfile>> {
 }
 
 #[tauri::command(async)]
-pub async fn wlan_connect(ssid: String, password: String, hidden: bool) -> Result<bool> {
-    NetworkManager::add_profile(&ssid, &password, hidden).await?;
+pub async fn wlan_connect(ssid: String, password: Option<String>, hidden: bool) -> Result<bool> {
+    if let Some(passphrase) = password {
+        NetworkManager::add_profile(&ssid, &passphrase, hidden).await?;
+    } else {
+        let passphrase = String::new();
+        NetworkManager::add_profile(&ssid, &passphrase, hidden).await?;
+    }
+
     match try_connect_to_profile(&ssid).await {
         Ok(true) => Ok(true),
         Ok(false) => {

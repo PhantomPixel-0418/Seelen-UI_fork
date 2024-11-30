@@ -1,9 +1,10 @@
 taskbar_menu:
-  settings: Otwórz ustawienia
   start: Dodaj moduł Start
   media: Dodaj moduł nośnika
   add_file: Plik niestandardowy
   add_folder: Pin Custom Folder
+  settings: Ustawienia
+  task_manager: Menedżer zadań
 app_menu:
   unpin: Odpiąć
   pin: Szpilka
@@ -19,3 +20,5 @@ media_menu:
   remove: Usuń moduł multimediów
 start_menu:
   remove: Usuń moduł startowy
+media:
+  not_playing: Nic nie gra

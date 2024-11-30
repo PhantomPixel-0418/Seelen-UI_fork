@@ -14,6 +14,11 @@ network:
   hidden: Tora Hidden
   more: Mîhengên bêtir torê
   not_found: Tora torgilok nehat dîtin
+  scanning: Ji bo toran lêgerîn
+  connected: Girêdayî
+  available: Torên berdest
+  secured: Tora şîfrekirî
+  saved: torên Saved
 settings:
   shutdown: Temirandin
   sleep: Xew
@@ -35,4 +40,7 @@ placeholder:
   notifications: Notifications
 unlabelled_tray: Îkonê tray a bêpergal
 context_menu:
-  remove: Tiştê rakirin
+  add_module: Modulê zêde bikin
+  remove: Modulê rakirin
+  settings: Settings
+  task_manager: Gerînendetiya Peywiran

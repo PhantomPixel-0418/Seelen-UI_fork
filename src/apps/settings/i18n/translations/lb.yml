@@ -14,17 +14,18 @@ header:
     info: Informatioun
     shortcuts: Ofkierpsen
     seelen_weg: Dock / Taskbar
-    seelen_wall: D'Mauer
     seelen_rofi: App launcher
     virtual_desk: Virtuell Desktops
     home: Doheem
+    mods: Plugins & Widgets
+    seelen_wall: Wallpaper Manager
 start:
   title: Wëllkomm!
   message_accent: Optimiséiert Är Produktivitéit mam Stil!
   message: >-
     Wëllkomm fir ze gesinn Ui, den ultimativen Desktop Ëmfeld mat engem agebaute
-    Fournisseur Manager fir Är Windows 11 Erfarung ze verbesseren! Entdeckt eng
-    nei Ära vun Effizienz a Multits mat eisen intuitiven Interface a
+    Fournisseur Manager fir Är Windows Erfarung ze verbesseren! Entdeckt eng nei
+    Ära vun Effizienz a Multits mat eisen intuitiven Interface a
     fortgeschratgeschen Features.
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   height: Héicht
   auto_hide: Automatesch
   label: TO-tcstar
+  delay_to_show: Verspéidung fir ze weisen
+  delay_to_hide: Verspéidung ze verstoppen
 wm:
   border:
     width: Grenz Breet
@@ -83,6 +86,8 @@ weg:
   gap: Knënn
   enable: Aktivéiert Dock / Taskbar
   dock_side: Positioun un
+  delay_to_show: Verspéidung fir ze weisen
+  delay_to_hide: Verspéidung ze verstoppen
 devtools:
   app_folders: App Classeure
   enable: Aktivéiert Entwéckler Tools
@@ -110,12 +115,12 @@ apps_configurations:
     ok_edit: Olaangs
     bindings: Bindend (Notiz béid Optiounen sinn erfuerderlech)
     workspace: Konschtpas
-    title_edit: Ännerung {{Numm}}
     title_create: Erstellen {{Numm}}
     ok_create: Erreeiert eng kreéieren
     weg_options_label: Dock / Taskbaroptiounen
     wm_options_label: Fenster Manager Optiounen
     options_label: Extra Optiounen
+    title_edit: Ännert {{Numm}}
   identifier:
     remove: Läschen Block
     matching_strategy: Passende Strategie
@@ -226,9 +231,13 @@ monitors_configurations:
   label: Monitor {{index}}
 wall:
   backgrounds: Wallpapers
-  interval: Ännerung Wallpaper all (Sekonnen)
-  enable: Aktivéiert Sendelen Mauer
   no_background: Eidel Slatswhow, benotzt den Thema vum Thema amplaz.
+  enable: Aktivéiert Wallpaper Manager
+  interval: Änneren Wallpaper all
+  random: Zoufälleg Slideshow
+  minutes: Minutte vun der Minutten
+  hours: Stonnen.
+  seconds: Sekonnen
 app_launcher:
   runners:
     cmd: Kommun de Kommentar
@@ -245,3 +254,8 @@ update:
   channel: Update Kanal
   downloading: NËMMEN ...
 miscellaneous: Erleeën
+mods:
+  target: Zilrät
+  plugins: Plugins
+  widgets: Widgets
+remove: Ofwäschen

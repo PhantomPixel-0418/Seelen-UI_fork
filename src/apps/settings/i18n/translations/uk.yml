@@ -15,16 +15,17 @@ header:
     seelen_wm: Менеджер вікон
     shortcuts: Ярлики
     seelen_rofi: Запуск програми
-    seelen_wall: Стіна
     virtual_desk: Віртуальні настільні ПК
     home: Домашній
+    mods: Плагіни та віджети
+    seelen_wall: Менеджер шпалер
 start:
   title: Ласкаво просимо!
   message_accent: Оптимізуйте свою продуктивність стилем!
   message: >-
     Ласкаво просимо в інтерфейс SEELEN, Ultimate Desktop Envirtional із
     включеним менеджером з плитки Windows для покращення вашого досвіду Windows
-    11! Вивчіть нову еру ефективності та багатозадачності за допомогою нашого
+    ! Вивчіть нову еру ефективності та багатозадачності за допомогою нашого
     інтуїтивного інтерфейсу та розширених функцій.
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   height: Висота
   auto_hide: Автомати
   label: Панель інструментів
+  delay_to_show: Затримка, щоб показати
+  delay_to_hide: Затримка, щоб сховатися
 wm:
   border:
     width: Ширина кордону
@@ -83,6 +86,8 @@ weg:
   width: Ширина
   padding: Прокладка
   dock_side: Позиція
+  delay_to_show: Затримка, щоб показати
+  delay_to_hide: Затримка, щоб сховатися
 devtools:
   load: Навантаження
   app_folders: Папки додатків
@@ -109,13 +114,13 @@ apps_configurations:
     monitor_placeholder: Ні
     workspace_placeholder: Ні
     workspace: Робоча область
-    title_edit: Редагування {{Ім'я}}
     ok_create: Створити
     name: Назва
     bindings: Зобов’язання (ПРИМІТКА Обидва варіанти потрібні)
     weg_options_label: Параметри Dock/Taskbar
     wm_options_label: Параметри менеджера вікон
     options_label: Додаткові варіанти
+    title_edit: Редагування {{Ім'я}}
   identifier:
     and: І
     add_block: Додати блок
@@ -225,10 +230,14 @@ save_and_restart: Зберегти та перезапустити
 monitors_configurations:
   label: Монітор {{index}}
 wall:
-  enable: Увімкнути стіну Seelen
   no_background: Порожнє слайд -шоу, використовуючи фон теми.
   backgrounds: Шпалери
-  interval: Змінюйте шпалери кожні (секунди)
+  enable: Увімкнути менеджер шпалер
+  interval: Змініть шпалери кожен
+  random: Рандомізувати слайд -шоу
+  seconds: секунди
+  hours: годинник
+  minutes: хвилини
 app_launcher:
   runners:
     explorer: Пробігати
@@ -245,3 +254,8 @@ update:
   downloading: Завантаження ...
   channel: Канал оновлення
 miscellaneous: Різний
+mods:
+  target: Цільовий
+  plugins: Плагіни
+  widgets: Віджети
+remove: Видалити

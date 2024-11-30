@@ -14,6 +14,11 @@ network:
   disconnect: Исклучување
   connect: Поврзете се
   more: Повеќе мрежни поставки
+  scanning: Скенирање за мрежи
+  saved: Зачувани мрежи
+  available: Достапни мрежи
+  connected: Поврзан со
+  secured: Шифрирана мрежа
 settings:
   shutdown: Исклучи
   restart: Рестарт
@@ -35,4 +40,7 @@ placeholder:
   notifications: Известувања
 unlabelled_tray: Икона за обележување на послужавник
 context_menu:
-  remove: Отстранете ја ставката
+  remove: Отстранете го модулот
+  add_module: Додадете модул
+  settings: Поставки
+  task_manager: Управувач со задачи

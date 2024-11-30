@@ -15,14 +15,15 @@ header:
     seelen_bar: Фантастична лента с инструменти
     shortcuts: Преки пътища
     seelen_rofi: Изстрелване на приложението
-    seelen_wall: Стената
     virtual_desk: Виртуални настолни компютри
     home: Начало
+    mods: Плъгини и джаджи
+    seelen_wall: Мениджър на тапети
 start:
   title: Добре дошли!
   message: >-
     Добре дошли в Seelen UI, най -добрата среда на работния плот с включена
-    облицовка на Windows Manager, за да подобри вашето изживяване на Windows 11!
+    облицовка на Windows Manager, за да подобри вашето изживяване на Windows!
     Разгледайте нова ера на ефективност и многозадачност с нашия интуитивен
     интерфейс и разширени функции.
   message_accent: Оптимизирайте производителността си със стил!
@@ -55,6 +56,8 @@ toolbar:
   height: Височина
   auto_hide: Автоматично скриване
   label: Лента с инструменти
+  delay_to_show: Забавяне за показване
+  delay_to_hide: Забавяне, за да се скрие
 wm:
   border:
     enable: Активирайте границата на Windows
@@ -83,6 +86,8 @@ weg:
   label: Док/лента на задачите
   gap: Пропаст
   dock_side: Позиция
+  delay_to_show: Забавяне за показване
+  delay_to_hide: Забавяне, за да се скрие
 devtools:
   app_folders: Папки на приложения
   custom_config_file: Заредете персонализиран конфигурационен файл
@@ -99,7 +104,6 @@ apps_configurations:
       unmanage: Несъгласен
       pinned: Прикован
       hidden: Скрийте се от Dock/Taskbar
-    title_edit: Редактиране {{name}}
     title_create: Създаване {{name}}
     workspace: Работно пространство
     category: Категория
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: Опции за мениджър на прозорци
     weg_options_label: Опции за док/лента на задачите
     options_label: Допълнителни опции
+    title_edit: Редактиране {{name}}
   identifier:
     add_block: Добавете блок
     remove: Изтриване на блок
@@ -225,10 +230,14 @@ save_and_restart: Запазване и рестартиране
 monitors_configurations:
   label: Монитор {{index}}
 wall:
-  enable: Активирайте стената на Seelen
   backgrounds: Тапети
   no_background: Празно слайдшоу, вместо това използвайки фона на темата.
-  interval: Сменяйте тапетите на всеки (секунди)
+  enable: Активирайте мениджъра на тапети
+  interval: Променете тапетите всеки
+  random: Рандомизиране слайдшоу
+  hours: часове
+  minutes: минути
+  seconds: секунди
 app_launcher:
   runners:
     cmd: Команда
@@ -245,3 +254,8 @@ update:
   downloading: Изтегляне ...
   channel: Канал за актуализиране
 miscellaneous: Разни
+mods:
+  widgets: Джаджи
+  plugins: Приставки
+  target: Цел
+remove: Извадете

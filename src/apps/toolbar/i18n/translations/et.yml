@@ -14,6 +14,11 @@ network:
   not_found: Võrgustikke pole leitud
   connect: Ühendama
   hidden: Varjatud võrk
+  available: Saadaolevad võrgud
+  scanning: Võrkude otsimine
+  saved: Salvestatud võrgud
+  secured: Krüpteeritud võrk
+  connected: 'Ühendatud:'
 settings:
   log_out: Logi välja
   restart: Taaskäivita
@@ -35,4 +40,7 @@ placeholder:
   notifications: Teatised
 unlabelled_tray: Märgistamata salveikoon
 context_menu:
-  remove: Eemaldage üksus
+  remove: Eemaldage moodul
+  add_module: Lisage moodul
+  settings: Seaded
+  task_manager: Tegumihaldur

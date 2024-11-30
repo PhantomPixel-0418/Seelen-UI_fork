@@ -21,13 +21,14 @@ header:
     shortcuts: Raccourcis
     developer: Développeur
     info: Information
-    seelen_wall: Le mur
     seelen_rofi: Lanceur d'applications
     virtual_desk: Desktops virtuels
     home: Maison
+    mods: Plugins et widgets
+    seelen_wall: Directeur de papier peint
 start:
   title: Accueillir!
-  message: "Bienvenue dans Seelen UI, l'environnement de bureau ultime avec un gestionnaire de fenêtres en mosaïque intégré pour améliorer votre expérience Windows 11\_! Explorez une nouvelle ère d'efficacité et de multitâche avec notre interface intuitive et nos fonctionnalités avancées."
+  message: "Bienvenue dans Seelen UI, l'environnement de bureau ultime avec un gestionnaire de fenêtres en mosaïque intégré pour améliorer votre expérience Windows\_! Explorez une nouvelle ère d'efficacité et de multitâche avec notre interface intuitive et nos fonctionnalités avancées."
   message_accent: Optimisez votre productivité avec style !
 general:
   startup: Exécuter au démarrage?
@@ -58,6 +59,8 @@ toolbar:
   height: Hauteur
   auto_hide: Cachette automatique
   label: Barre d'outils
+  delay_to_hide: Retarder pour se cacher
+  delay_to_show: Retard à afficher
 wm:
   layout: Mise en page
   author: Auteur
@@ -86,6 +89,8 @@ weg:
     gap: Espace entre les éléments
     visible_separators: Séparateurs visibles
   dock_side: Position
+  delay_to_hide: Retarder pour se cacher
+  delay_to_show: Retard à afficher
 devtools:
   enable: Activer les outils de développement
   app_folders: Dossiers d'applications
@@ -117,7 +122,6 @@ apps_configurations:
     monitor_placeholder: Aucun
     workspace: Espace de travail
     workspace_placeholder: Aucun
-    title_edit: Modification de {{name}}
     title_create: Création de {{name}}
     title_readonly: Affichage de {{name}}
     ok_edit: Mise à jour
@@ -132,6 +136,7 @@ apps_configurations:
     wm_options_label: Options du gestionnaire de fenêtres
     weg_options_label: Options de quai / barre des tâches
     options_label: Des options supplémentaires
+    title_edit: Édition {{nom}}
   identifier:
     remove: Supprimer le bloc
     id: Identifiant
@@ -223,10 +228,14 @@ save_and_restart: Enregistrer et redémarrer
 monitors_configurations:
   label: Moniteur {{index}}
 wall:
-  interval: Changer de papier peint chaque (seconde)
-  enable: Activer Seelen Wall
   backgrounds: Fonds d'écran
   no_background: Vide de diaporama, en utilisant à la place l'arrière-plan du thème.
+  enable: Activer le gestionnaire de papier peint
+  interval: Changer de papier peint à chaque
+  random: Randomiser le diaporama
+  minutes: minutes
+  hours: heures
+  seconds: secondes
 app_launcher:
   runners:
     explorer: Courir
@@ -243,3 +252,8 @@ update:
   downloading: Téléchargement...
   channel: Mettre à jour le canal
 miscellaneous: Divers
+mods:
+  target: Cible
+  plugins: Plugins
+  widgets: Widgets
+remove: Retirer

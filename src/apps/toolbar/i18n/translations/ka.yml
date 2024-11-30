@@ -14,6 +14,11 @@ network:
   connect: დაკავშირება
   more: მეტი ქსელის პარამეტრები
   hidden: დამალული ქსელი
+  secured: დაშიფრული ქსელი
+  connected: დაკავშირებულია
+  available: ხელმისაწვდომი ქსელები
+  saved: შენახული ქსელები
+  scanning: სკანირება ქსელებისთვის
 settings:
   restart: Რესტარტი
   shutdown: Გათიშვა
@@ -35,4 +40,7 @@ placeholder:
   notifications: შეტყობინებები
 unlabelled_tray: არასასურველი უჯრის ხატი
 context_menu:
-  remove: ამოიღეთ ელემენტი
+  add_module: მოდულის დამატება
+  remove: ამოიღეთ მოდული
+  settings: პარამეტრები
+  task_manager: სამუშაო მენეჯერი

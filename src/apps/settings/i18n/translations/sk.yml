@@ -14,17 +14,18 @@ header:
     specific_apps: Konkrétne aplikácie
     general: Všeobecný
     seelen_wm: Správca okien
-    seelen_wall: Stena
     seelen_rofi: Spúšťač aplikácií
     virtual_desk: Virtuálne stolné počítače
     home: Domov
+    mods: Pluginy a widgety
+    seelen_wall: Manažér tapiet
 start:
   title: Vitajte!
   message: >-
     Vitajte v používateľskom rozhraní Seelen, v konečnom prostredí Desktop so
     začleneným obkladom Windows Manager, aby ste vylepšili váš zážitok z systému
-    Windows 11! Preskúmajte novú éru účinnosti a multitaskingu s naším
-    intuitívnym rozhraním a pokročilými funkciami.
+    Windows! Preskúmajte novú éru účinnosti a multitaskingu s naším intuitívnym
+    rozhraním a pokročilými funkciami.
   message_accent: Optimalizujte svoju produktivitu štýlom!
 general:
   theme:
@@ -55,6 +56,8 @@ toolbar:
   height: Výška
   auto_hide: Automaticky skryť
   label: Panel s nástrojmi
+  delay_to_hide: Odložiť skryť
+  delay_to_show: Oneskorenie zobrazenia
 wm:
   border:
     width: Šírka hranice
@@ -83,6 +86,8 @@ weg:
   padding: Vypchávka
   margin: Okraj
   dock_side: Pozícia
+  delay_to_show: Oneskorenie zobrazenia
+  delay_to_hide: Odložiť skryť
 devtools:
   enable: Povoľte vývojárskym nástrojom
   custom_config_file: Načítať vlastný konfiguračný súbor
@@ -105,7 +110,6 @@ apps_configurations:
     ok_readonly: Upravovať ako nové
     title_create: Vytváranie {{name}}
     bindings: Viazanie (POZNÁMKA sú potrebné obe možnosti)
-    title_edit: Editovanie {{name}}
     workspace_placeholder: Žiadny
     category_placeholder: Žiadny
     ok_create: Vytvárať
@@ -116,6 +120,7 @@ apps_configurations:
     wm_options_label: Možnosti správcu okien
     weg_options_label: Možnosti doku/panela úloh
     options_label: Ďalšie možnosti
+    title_edit: Úpravy {{name}}
   identifier:
     remove: Vymazať blok
     negation: Negovať zladenie
@@ -226,9 +231,13 @@ monitors_configurations:
   label: Monitor {{index}}
 wall:
   no_background: Empty SlideShow, namiesto toho pomocou pozadia témy.
-  enable: Povoliť stenu Seelen
-  interval: Vymeňte tapetu každú (sekundy)
   backgrounds: Tapety
+  enable: Povoliť manažéra tapiet
+  interval: Vymeňte tapetu každý
+  random: Randomizovať prezentáciu
+  minutes: minúta
+  hours: hodiny
+  seconds: sekundy
 app_launcher:
   runners:
     label: Bežec
@@ -245,3 +254,8 @@ update:
   downloading: Sťahovanie ...
   channel: Kanál
 miscellaneous: Rôznorodý
+mods:
+  widgets: Miniaplikácia
+  target: Cieľ
+  plugins: Doplnky
+remove: Odložiť

@@ -14,16 +14,17 @@ header:
     seelen_weg: Dock/taakbalk
     seelen_bar: Fancy werkbalk
     shortcuts: Snelkoppelingen
-    seelen_wall: Achtergrond
     seelen_rofi: Appstarter
     virtual_desk: Virtuele desktops
     home: Thuis
+    mods: Plug-ins en widgets
+    seelen_wall: Wallpaper manager
 start:
   message_accent: Optimaliseer uw productiviteit met stijl!
   title: Welkom!
   message: >-
     Welkom bij Seelen UI, de ultieme desktopomgeving met een opgenomen Tiling
-    Windows Manager om uw Windows 11 -ervaring te verbeteren! Verken een nieuw
+    Windows Manager om uw Windows -ervaring te verbeteren! Verken een nieuw
     tijdperk van efficiëntie en multitasking met onze intuïtieve interface en
     geavanceerde functies.
 general:
@@ -55,6 +56,8 @@ toolbar:
   enable: Schakel fancy werkbalk in
   auto_hide: Automatisch verbergen
   label: Werkbalk
+  delay_to_show: Vertraging om te tonen
+  delay_to_hide: Vertraging om te verbergen
 wm:
   border:
     width: Grensbreedte
@@ -83,6 +86,8 @@ weg:
   label: Dock/taakbalk
   enable: Schakel dock/taakbalk in
   dock_side: Positie
+  delay_to_hide: Vertraging om te verbergen
+  delay_to_show: Vertraging om te tonen
 devtools:
   load: Laden
   data_folder: Gegevensmap
@@ -106,7 +111,6 @@ apps_configurations:
     monitor_placeholder: Geen
     title_readonly: '{{{Name}} bekijken'
     workspace: Werkruimte
-    title_edit: Bewerken {{name}}
     ok_readonly: Bewerken als nieuw
     title_create: Het maken van {{name}}
     bindings: Binding (beide opties zijn vereist)
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: Dock/taakbalkopties
     wm_options_label: Opties voor vensterbeheerder
     options_label: Extra opties
+    title_edit: Bewerken {{name}}
   identifier:
     and: EN
     or: OF
@@ -227,10 +232,16 @@ save_and_restart: Opslaan en opnieuw opstarten
 monitors_configurations:
   label: Monitor {{index}}
 wall:
-  interval: Verander achtergrond elke (seconden)
   backgrounds: Achtergronden
-  no_background: Lege diavoorstelling, gebruikt in plaats daarvan de achtergrond van het thema.
-  enable: Schakel Seelen -achtergrond in
+  no_background: >-
+    Lege diavoorstelling, gebruikt in plaats daarvan de achtergrond van het
+    thema.
+  enable: Schakel wallpaper manager in
+  interval: Verander wallpaper elke
+  random: Randomize diavoorstelling
+  minutes: notulen
+  hours: uren
+  seconds: seconden
 app_launcher:
   runners:
     cmd: Commando
@@ -247,3 +258,8 @@ update:
   downloading: Downloaden ...
   channel: Updatekanaal
 miscellaneous: Gemengd
+mods:
+  target: Doel
+  widgets: Widgets
+  plugins: Plug -ins
+remove: Verwijderen

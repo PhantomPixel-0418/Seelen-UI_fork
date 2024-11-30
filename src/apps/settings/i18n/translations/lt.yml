@@ -14,18 +14,19 @@ header:
     info: Informacija
     shortcuts: Nuorodos
     general: Bendrasis
-    seelen_wall: Siena
     seelen_rofi: Programos paleidimo priemonė
     virtual_desk: Virtualūs staliniai kompiuteriai
     home: Namai
+    mods: Papildiniai ir valdikliai
+    seelen_wall: Tapetų vadovas
 start:
   title: Sveiki!
   message_accent: Optimizuokite savo produktyvumą stiliumi!
   message: >-
     Sveiki atvykę į „Seelen UI“, „Ultimate Desktop“ aplinką su „Incorporated“
-    plytelių „Windows Manager“, kad patobulintumėte „Windows 11“ patirtį!
-    Naršykite naują efektyvumo ir daugiafunkcinių užduočių erą naudodamiesi
-    intuityvia sąsaja ir pažangiomis funkcijomis.
+    plytelių „Windows Manager“, kad patobulintumėte „Windows“ patirtį! Naršykite
+    naują efektyvumo ir daugiafunkcinių užduočių erą naudodamiesi intuityvia
+    sąsaja ir pažangiomis funkcijomis.
 general:
   theme:
     enabled: Įgalintos temos
@@ -55,6 +56,8 @@ toolbar:
   enable: Įgalinkite išgalvotą įrankių juostą
   auto_hide: Automatinis slėptuvė
   label: Įrankių juosta
+  delay_to_hide: Vėluoti paslėpti
+  delay_to_show: Delsimas parodyti
 wm:
   border:
     enable: Įgalinti lango sieną
@@ -83,6 +86,8 @@ weg:
   enable: Įgalinti doką/užduočių juostą
   gap: Tarpas
   dock_side: Pozicija
+  delay_to_hide: Vėluoti paslėpti
+  delay_to_show: Delsimas parodyti
 devtools:
   settings_file: Nustatymų failas
   custom_config_file: Įkelkite pasirinktinį konfigūracijos failą
@@ -106,7 +111,6 @@ apps_configurations:
     category_placeholder: Nė vienas
     title_create: Kurti {{name}}
     bindings: Įrišimas (pastaba yra būtinos abi parinktys)
-    title_edit: Redagavimas {{name}}
     workspace: Darbo vieta
     workspace_placeholder: Nė vienas
     ok_edit: Atnaujinimas
@@ -116,6 +120,7 @@ apps_configurations:
     weg_options_label: „Dock“/„Taskbar“ parinktys
     wm_options_label: „Windows Manager“ parinktys
     options_label: Papildomos galimybės
+    title_edit: Redagavimas {{name}}
   identifier:
     id: Identifikatorius
     negation: Neigiamas
@@ -224,9 +229,13 @@ monitors_configurations:
   label: Monitorius {{index}}
 wall:
   backgrounds: Tapetai
-  enable: Įgalinkite Seeleno sieną
-  interval: Keiskite tapetų kiekvieną (sekundes)
   no_background: Tuščias skaidrių demonstravimas, vietoje to, naudodamiesi temos fonu.
+  enable: Įgalinkite tapetų tvarkytuvę
+  interval: Keiskite tapetų kiekvieną
+  random: Atsitiktinis skaidrių demonstravimas
+  hours: valandos
+  minutes: minutės
+  seconds: sekundės
 app_launcher:
   runners:
     explorer: Bėgti
@@ -243,3 +252,8 @@ update:
   downloading: Atsisiuntimas ...
   channel: Atnaujinkite kanalą
 miscellaneous: Įvairūs
+mods:
+  target: Taikinys
+  plugins: Papildiniai
+  widgets: Valdikliai
+remove: Pašalinti

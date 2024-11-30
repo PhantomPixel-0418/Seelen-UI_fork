@@ -14,6 +14,11 @@ network:
   not_found: Tidak ada jaringan yang ditemukan
   hidden: Jaringan tersembunyi
   more: Lebih banyak pengaturan jaringan
+  connected: Terhubung ke
+  saved: Jaringan yang disimpan
+  secured: Jaringan terenkripsi
+  available: Jaringan yang tersedia
+  scanning: Memindai jaringan
 settings:
   restart: Mengulang kembali
   app_settings: Pengaturan aplikasi
@@ -35,4 +40,7 @@ placeholder:
   notifications: Pemberitahuan
 unlabelled_tray: Ikon baki tanpa label
 context_menu:
-  remove: Hapus item
+  add_module: Tambahkan modul
+  remove: Hapus modul
+  task_manager: Manajer Tugas
+  settings: Pengaturan
